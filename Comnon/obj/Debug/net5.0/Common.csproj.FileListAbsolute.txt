@@ -1,0 +1,12 @@
+C:\_Lab\Shop Oficina\Shop\Comnon\bin\Debug\net5.0\Common.deps.json
+C:\_Lab\Shop Oficina\Shop\Comnon\bin\Debug\net5.0\Common.dll
+C:\_Lab\Shop Oficina\Shop\Comnon\bin\Debug\net5.0\ref\Common.dll
+C:\_Lab\Shop Oficina\Shop\Comnon\bin\Debug\net5.0\Common.pdb
+C:\_Lab\Shop Oficina\Shop\Comnon\obj\Debug\net5.0\Common.csprojAssemblyReference.cache
+C:\_Lab\Shop Oficina\Shop\Comnon\obj\Debug\net5.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\_Lab\Shop Oficina\Shop\Comnon\obj\Debug\net5.0\Common.AssemblyInfoInputs.cache
+C:\_Lab\Shop Oficina\Shop\Comnon\obj\Debug\net5.0\Common.AssemblyInfo.cs
+C:\_Lab\Shop Oficina\Shop\Comnon\obj\Debug\net5.0\Common.csproj.CoreCompileInputs.cache
+C:\_Lab\Shop Oficina\Shop\Comnon\obj\Debug\net5.0\Common.dll
+C:\_Lab\Shop Oficina\Shop\Comnon\obj\Debug\net5.0\ref\Common.dll
+C:\_Lab\Shop Oficina\Shop\Comnon\obj\Debug\net5.0\Common.pdb

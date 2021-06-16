@@ -24,9 +24,6 @@
 
 ***
 
-👨‍💻 C# <br/>
-👨‍💻 Javascript
-
 > # 🛠 Ferramentas
 💻 Visual Studio Preview : [DOWNLOAD](https://visualstudio.microsoft.com/pt-br/vs/preview/)<br/>
 💻 SQL Server Developer : [DOWNLOAD](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads)<br/>

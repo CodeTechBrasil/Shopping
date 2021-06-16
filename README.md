@@ -1,18 +1,28 @@
 > # 💿 SDK
-💽 .NET 6
+💽 .NET 6 [DOWNLOAD]( https://www.institutoqualibest.com/blog/dicas/entenda-o-que-e-pesquisa-qualitativa-e-quantitativa/)
+
+
+***
 
 > # 🟣 Linguagens de Programação
 
 👨‍💻 C# <br/>
 👨‍💻 Javascript
 
+***
+
 > # 📙 Bibliotecas Front End
 🧶 Bootstrap 5 [DOWLOAD](https://getbootstrap.com/) <br/>
 🧶 sweetalert2 [DOWNLOAD](https://sweetalert2.github.io/) <br/>
 🧶 codeseven [DOWNLOAD](https://codeseven.github.io/toastr/demo.html) <br/>
 
+
+***
+
 > # 📖 Back End
 💾 ASP.NET Core
+
+***
 
 👨‍💻 C# <br/>
 👨‍💻 Javascript
@@ -23,7 +33,7 @@
 
 ***
 
-> # 🗂 Estrutura de Pastas
+> # 🗂 Estrutura dos Projetos
 📂  Cammon <br/>
 📂 Model <br/>
 📂 DataAcess <br/>
@@ -35,6 +45,8 @@
 💵 Paypal <br/>
 📧 Email <br/>
 
+
+***
 
 > # 🧰 Componentes
 📡 Entity Framework Core 6<br/>

@@ -14,7 +14,7 @@ namespace DataAccess
             switch (enumDabase)
             {
                 case EnumDatabase.SqlServer:
-                    var connSqlServer = "Server=192.168.0.21,1533;Database=Shop;User=dev;Password=a"; ;
+                    var connSqlServer = "Server=127.0.0.1,1433;Database=Shop;User=sa;Password=a"; ;
                     optionsBuilder.UseSqlServer(connSqlServer);
                     break;
                 case EnumDatabase.MySql:

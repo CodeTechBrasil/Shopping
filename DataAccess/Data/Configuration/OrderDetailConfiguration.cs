@@ -24,12 +24,21 @@ namespace DataAccess
 
             builder
                 .Property(X => X.Sqft)
+                .HasPrecision(8)
                 .IsRequired();
 
             builder
                 .Property(X => X.PricePerSqFt)
-                .HasPrecision(16,2)
+                .HasPrecision(18,2)
                 .IsRequired();
+
+            builder
+                .HasOne(x => x.Product);
+
+            builder
+                .HasOne(x => x.OrderHeader)
+                .WithMany(x => x.ListOrderDetail)
+                .HasForeignKey(x => x.OrderHeaderId);
         }
     }
 }

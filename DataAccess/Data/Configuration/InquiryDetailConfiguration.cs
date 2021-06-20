@@ -20,6 +20,13 @@ namespace DataAccess
             builder
                .Property(x => x.ProductId)
                .IsRequired();
+
+            // Relacionamento 1 para 1 - precisa ter somente uma instância da classe pai na filha.
+            builder
+                .HasOne(x => x.InquiryHeader);
+
+            builder.
+                HasOne(x => x.Product);
         }
     }
 }

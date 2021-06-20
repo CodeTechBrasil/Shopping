@@ -1,13 +1,11 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using DataAccess;
+using Common;
 
 namespace Shop
 {
@@ -22,11 +20,25 @@ namespace Shop
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews();
+            //CONFIGURA A CONEXÃO COM O BANCO DE DADOS, INFORMANDO A STRING DE CONEXÃO
+            services.AddDbContext<ApplicationDbContext>(options =>
+                options.UseSqlServer(
+                    Configuration.GetConnectionString(DB.CONNECTION_STRING)));
+
+            //INFORMANDO QUE VAMOS TRABALHAR COM CONTROLLER COM VIEW
+            services
+                .AddControllersWithViews()
+                .AddRazorRuntimeCompilation();
+
+            //INFORMANDO QUE VAMOS TRABALHAR COM PÁGINA RAZOR
+            services
+                .AddRazorPages();
+
+            services.AddScoped<IDbInitializer, DbInitializer>();
         }
 
 
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env,IDbInitializer dbInit)
         {
             if (env.IsDevelopment())
             {
@@ -35,7 +47,6 @@ namespace Shop
             else
             {
                 app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
             app.UseHttpsRedirection();
@@ -43,13 +54,19 @@ namespace Shop
 
             app.UseRouting();
 
+            //MÉTODO PARA CRIAR E INSERIR REGISTRO NO BANCO DE DADOS.
+            dbInit.Initialize();
+
+
             app.UseAuthorization();
 
+            //VAMOS ATRABALHAR COM ÁREAS
             app.UseEndpoints(endpoints =>
             {
+                //Configurando Rota de Areas
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{area=Admin}/{controller=Home}/{action=Index}/{id?}");
             });
         }
     }

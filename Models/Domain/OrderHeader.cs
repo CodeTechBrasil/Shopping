@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace Models
@@ -38,5 +39,7 @@ namespace Models
         [Required]
         public string FullName { get; set; }
         public string Email { get; set; }
+
+        public IEnumerable<OrderDetail> ListOrderDetail { get; set; }
     }
 }

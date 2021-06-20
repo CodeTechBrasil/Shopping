@@ -8,13 +8,13 @@ namespace DataAccess
 {
     public class Repository<T> : IRepository<T> where T : class
     {
-        //private readonly ApplicationDbContext _db;
+        private readonly ApplicationDbContext _db;
         internal DbSet<T> dbSet;
-        //public Repository(ApplicationDbContext db)
-        //{
-        //    _db = db;
-        //    this.dbSet = _db.Set<T>();
-        //}
+        public Repository(ApplicationDbContext db)
+        {
+            _db = db;
+            this.dbSet = _db.Set<T>();
+        }
 
         public void Add(T entity)
         {

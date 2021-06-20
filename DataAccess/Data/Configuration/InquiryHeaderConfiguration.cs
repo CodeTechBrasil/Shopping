@@ -25,12 +25,12 @@ namespace DataAccess
 
             builder
               .Property(x => x.FullName)
-              .HasMaxLength(50)
+              .HasMaxLength(150)
               .IsRequired();
 
             builder
               .Property(x => x.Email)
-              .HasMaxLength(50)
+              .HasMaxLength(150)
               .IsRequired();
 
             //.HasColumnName("Name")

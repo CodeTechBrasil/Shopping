@@ -1,14 +1,12 @@
-﻿using Models;
-using System;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using Models;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DataAccess
 {
     public interface IProductRepository : IRepository<Product>
     {
-        void Update(Category obj);
+        void Update(Product obj);
+        IEnumerable<SelectListItem> GetAllDropdownList(string obj);
     }
 }

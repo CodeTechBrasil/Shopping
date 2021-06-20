@@ -21,11 +21,6 @@ namespace DataAccess
             builder
                .Property(x => x.DisplayOrder)
                .HasPrecision(10);
-       
-            //.HasColumnName("Name")
-            //.HasColumnType("nvarchar(max)");
-            //builder.Ignore(x => x.DisplayOrder);
         }
-
     }
 }

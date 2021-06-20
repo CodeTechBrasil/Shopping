@@ -1,27 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< Updated upstream
-    "S:\\DESENVOLVIMENTO\\GIT\\Shopping\\Models\\Models.csproj": {}
-  },
-  "projects": {
-    "S:\\DESENVOLVIMENTO\\GIT\\Shopping\\Models\\Models.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "S:\\DESENVOLVIMENTO\\GIT\\Shopping\\Models\\Models.csproj",
-        "projectName": "Models",
-        "projectPath": "S:\\DESENVOLVIMENTO\\GIT\\Shopping\\Models\\Models.csproj",
-        "packagesPath": "C:\\Users\\SISUNIVAG\\.nuget\\packages\\",
-        "outputPath": "S:\\DESENVOLVIMENTO\\GIT\\Shopping\\Models\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\SISUNIVAG\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-=======
     "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Models\\Models.csproj": {}
   },
   "projects": {
@@ -44,7 +23,6 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
->>>>>>> Stashed changes
         ],
         "originalTargetFrameworks": [
           "net6.0"

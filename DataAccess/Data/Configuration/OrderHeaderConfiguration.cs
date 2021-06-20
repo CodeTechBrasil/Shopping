@@ -38,6 +38,7 @@ namespace DataAccess
 
             builder
                 .Property(x => x.TransactionId)
+                .HasMaxLength(200)
                 .IsRequired();
 
             builder
@@ -47,22 +48,22 @@ namespace DataAccess
 
             builder
                .Property(x => x.StreetAddress)
-               .HasMaxLength(50)
+               .HasMaxLength(150)
                .IsRequired();
 
             builder
                .Property(x => x.City)
-               .HasMaxLength(50)
+               .HasMaxLength(80)
                .IsRequired();
 
             builder
                .Property(x => x.State)
-               .HasMaxLength(50)
+               .HasMaxLength(80)
                .IsRequired();
 
             builder
                .Property(x => x.PostalCode)
-               .HasMaxLength(50)
+               .HasMaxLength(20)
                .IsRequired();
 
             builder
@@ -72,7 +73,7 @@ namespace DataAccess
 
             builder
                .Property(x => x.Email)
-               .HasMaxLength(50)
+               .HasMaxLength(150)
                .IsRequired();
         }
     }

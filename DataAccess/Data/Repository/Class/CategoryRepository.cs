@@ -9,14 +9,14 @@ namespace DataAccess
     {
         private readonly ApplicationDbContext _db;
 
-        public CategoryRepository(ApplicationDbContext db)
+        public CategoryRepository(ApplicationDbContext db):base(db)
         {
             _db = db;
         }
 
         public IEnumerable<SelectListItem> GetAllDropDownList(Category objeto)
         {
-            return _db.Categories.Select(i => new SelectListItem
+            return _db.Category.Select(i => new SelectListItem
             {
                 Text = i.Name,
                 Value = i.Id.ToString()
@@ -25,7 +25,11 @@ namespace DataAccess
 
         public void Update(Category obj)
         {
-            _db.Update(obj);
+            var objFromDb = base.FirstOrDefault(u => u.Id == obj.Id);
+            if (objFromDb != null)
+                objFromDb.Map(obj);
+
+            _db.Category.Update(obj);
         }
     }
 }

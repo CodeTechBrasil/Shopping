@@ -2,11 +2,10 @@
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Models;
 
-namespace DataAccess.Data.Configuration
+namespace DataAccess
 {
     public class ProductConfiguration : BaseDomainConfiguration<Product>
     {
-
         private static string _nameTable = DB.TABLE_PRODUCT;
         public ProductConfiguration() : base(_nameTable) { }
 
@@ -31,7 +30,7 @@ namespace DataAccess.Data.Configuration
 
             builder
                 .Property(x => x.Price)
-                .HasPrecision(10,5)
+                .HasPrecision(16,2)
                 .IsRequired();
 
             builder

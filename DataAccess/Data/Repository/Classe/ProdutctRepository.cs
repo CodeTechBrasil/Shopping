@@ -7,7 +7,7 @@ using Models;
 
 namespace DataAccess
 {
-    public class ProductRepository : Repository<Product>, ICategoryRepository
+    public class ProductRepository : Repository<Product>, IProductRepository
     {
         private readonly ApplicationDbContext _db;
 

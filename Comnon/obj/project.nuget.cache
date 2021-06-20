@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "e+TtkocR7H9gI7NiQj2r5yHPZXynchGdwJ495HsOhuw1SoWK2F0khcFgXexzgRrKLe9Z/L2xENTZ2t4srg7JMA==",
   "success": true,
   "projectFilePath": "S:\\DESENVOLVIMENTO\\GIT\\Shopping\\Comnon\\Common.csproj",
+=======
+  "dgSpecHash": "z5vuSvzqHZKSyy1wIW9iQCjjPigck+uEg8RfeUWbllXTiiWjAvXHGP+Z8Cjb2tifJjCrh1x4Fltla5IzBkOT2Q==",
+  "success": true,
+  "projectFilePath": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Comnon\\Common.csproj",
+>>>>>>> Stashed changes
   "expectedPackageFiles": [],
   "logs": []
 }

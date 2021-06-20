@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< Updated upstream
     "S:\\DESENVOLVIMENTO\\GIT\\Shopping\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
@@ -20,11 +21,36 @@
           "C:\\Users\\SISUNIVAG\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+=======
+    "C:\\_Cursos\\Curso Wcogeo\\Shopping\\DataAccess\\DataAccess.csproj": {}
+  },
+  "projects": {
+    "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Comnon\\Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Comnon\\Common.csproj",
+        "projectName": "Common",
+        "projectPath": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Comnon\\Common.csproj",
+        "packagesPath": "C:\\Users\\Edielson\\.nuget\\packages\\",
+        "outputPath": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Comnon\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Edielson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+>>>>>>> Stashed changes
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -62,6 +88,7 @@
         }
       }
     },
+<<<<<<< Updated upstream
     "S:\\DESENVOLVIMENTO\\GIT\\Shopping\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -78,11 +105,33 @@
           "C:\\Users\\SISUNIVAG\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+=======
+    "C:\\_Cursos\\Curso Wcogeo\\Shopping\\DataAccess\\DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\DataAccess\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Edielson\\.nuget\\packages\\",
+        "outputPath": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Edielson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+>>>>>>> Stashed changes
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -90,11 +139,19 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+<<<<<<< Updated upstream
               "S:\\DESENVOLVIMENTO\\GIT\\Shopping\\Comnon\\Common.csproj": {
                 "projectPath": "S:\\DESENVOLVIMENTO\\GIT\\Shopping\\Comnon\\Common.csproj"
               },
               "S:\\DESENVOLVIMENTO\\GIT\\Shopping\\Models\\Models.csproj": {
                 "projectPath": "S:\\DESENVOLVIMENTO\\GIT\\Shopping\\Models\\Models.csproj"
+=======
+              "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Comnon\\Common.csproj": {
+                "projectPath": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Comnon\\Common.csproj"
+              },
+              "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Models\\Models.csproj": {
+                "projectPath": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Models\\Models.csproj"
+>>>>>>> Stashed changes
               }
             }
           }
@@ -155,6 +212,7 @@
         }
       }
     },
+<<<<<<< Updated upstream
     "S:\\DESENVOLVIMENTO\\GIT\\Shopping\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -171,11 +229,33 @@
           "C:\\Users\\SISUNIVAG\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+=======
+    "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Models\\Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Models\\Models.csproj",
+        "projectName": "Models",
+        "projectPath": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\Edielson\\.nuget\\packages\\",
+        "outputPath": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Edielson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+>>>>>>> Stashed changes
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },

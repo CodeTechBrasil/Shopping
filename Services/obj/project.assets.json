@@ -3386,7 +3386,10 @@
       "path": "microsoft.netcore.targets/1.1.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -3401,7 +3404,10 @@
       "path": "microsoft.win32.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3515,7 +3521,10 @@
       "path": "netstandard.library/1.6.1",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "netstandard.library.1.6.1.nupkg.sha512",
@@ -3606,7 +3615,10 @@
       "path": "runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -3620,7 +3632,10 @@
       "path": "runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -3634,7 +3649,10 @@
       "path": "runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -3648,7 +3666,10 @@
       "path": "runtime.native.system/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -3662,7 +3683,10 @@
       "path": "runtime.native.system.io.compression/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -3676,7 +3700,10 @@
       "path": "runtime.native.system.net.http/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -3690,7 +3717,10 @@
       "path": "runtime.native.system.security.cryptography.apple/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -3704,7 +3734,10 @@
       "path": "runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -3713,12 +3746,19 @@
       ]
     },
     "runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
+<<<<<<< Updated upstream
       "sha512": "b3pthNgxxFcD+Pc0WSEoC0+md3MyhRS6aCEeenvNE3Fdw1HyJ18ZhRFVJJzIeR/O/jpxPboB805Ho0T3Ul7w8A==",
+=======
+      "sha512": "zWLOQ77Y4FV/6Vw2g+FYzprbQX5/xKvjoCLe4L9159Aw1bSboQoJ1KRZFNdexDooWRAIsLSdE0ZokkrVkwN8Yw==",
+>>>>>>> Stashed changes
       "type": "package",
       "path": "runtime.opensuse.13.2-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.opensuse.13.2-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -3732,7 +3772,10 @@
       "path": "runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -3746,7 +3789,10 @@
       "path": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple.4.3.0.nupkg.sha512",
@@ -3755,12 +3801,19 @@
       ]
     },
     "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
+<<<<<<< Updated upstream
       "sha512": "X7IdhILzr4ROXd8mI1BUCQMSHSQwelUlBjF1JyTKCjXaOGn2fB4EKBxQbCK2VjO3WaWIdlXZL3W6TiIVnrhX4g==",
+=======
+      "sha512": "/p8IQT2brFMDa7BHMH71LV+w5Tb3OxoLHxhn6+MGqN5xeqhM2HRHmj+7xQGJnaRn73d7ZTvp6yRCFMvolws4wA==",
+>>>>>>> Stashed changes
       "type": "package",
       "path": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -3769,12 +3822,19 @@
       ]
     },
     "runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
+<<<<<<< Updated upstream
       "sha512": "nyFNiCk/r+VOiIqreLix8yN+q3Wga9+SE8BCgkf+2BwEKiNx6DyvFjCgkfV743/grxv8jHJ8gUK4XEQw7yzRYg==",
+=======
+      "sha512": "T5NvFgmHX0WH4c7lP72krsnk+IJI10vJf2j2twGE+5QBRA4RyRAgD+ZjEgdmpLOjW4B+nZGaadewTCUcR899OQ==",
+>>>>>>> Stashed changes
       "type": "package",
       "path": "runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -3783,12 +3843,19 @@
       ]
     },
     "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
+<<<<<<< Updated upstream
       "sha512": "ytoewC6wGorL7KoCAvRfsgoJPJbNq+64k2SqW6JcOAebWsFUvCCYgfzQMrnpvPiEl4OrblUlhF2ji+Q1+SVLrQ==",
+=======
+      "sha512": "JGc0pAWRE8lB4Ucygk2pYSKbUPLlAIq6Bczf5/WF2D/VKJEPtYlVUMxk8fbl1zRfTWzSHi+VcFZlaPlWiNxeKg==",
+>>>>>>> Stashed changes
       "type": "package",
       "path": "runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -3797,12 +3864,19 @@
       ]
     },
     "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
+<<<<<<< Updated upstream
       "sha512": "I8bKw2I8k58Wx7fMKQJn2R8lamboCAiHfHeV/pS65ScKWMMI0+wJkLYlEKvgW1D/XvSl/221clBoR2q9QNNM7A==",
+=======
+      "sha512": "YWzJvhiC+iLWI/IfpPQUIBhYnAHUFQFRDqR7VDNmPj0b3rjW7dArFqKysZ9v0iSBs9Ih4v9GasLpYCSUwADMQQ==",
+>>>>>>> Stashed changes
       "type": "package",
       "path": "runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -3811,12 +3885,19 @@
       ]
     },
     "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
+<<<<<<< Updated upstream
       "sha512": "VB5cn/7OzUfzdnC8tqAIMQciVLiq2epm2NrAm1E9OjNRyG4lVhfR61SMcLizejzQP8R8Uf/0l5qOIbUEi+RdEg==",
+=======
+      "sha512": "1uVTITQP8/cI6YoO6FqfW1pzP0k2TnDZ3TFD88Bu/9H7ZuTsMY9xmadbGpwPu8w8swcd1ifZJsjD9hF9O6C/tg==",
+>>>>>>> Stashed changes
       "type": "package",
       "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -3830,7 +3911,10 @@
       "path": "system.appcontext/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3914,7 +3998,10 @@
       "path": "system.collections/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3982,7 +4069,10 @@
       "path": "system.collections.concurrent/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4185,7 +4275,10 @@
       "path": "system.console/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4223,7 +4316,10 @@
       "path": "system.diagnostics.debug/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4317,7 +4413,10 @@
       "path": "system.diagnostics.tools/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4374,7 +4473,10 @@
       "path": "system.diagnostics.tracing/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4503,7 +4605,10 @@
       "path": "system.dynamic.runtime/4.0.11",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4574,7 +4679,10 @@
       "path": "system.globalization/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4642,7 +4750,10 @@
       "path": "system.globalization.calendars/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4680,7 +4791,10 @@
       "path": "system.globalization.extensions/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4738,7 +4852,10 @@
       "path": "system.io/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4819,7 +4936,10 @@
       "path": "system.io.compression/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4890,7 +5010,10 @@
       "path": "system.io.compression.zipfile/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4929,7 +5052,10 @@
       "path": "system.io.filesystem/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4967,7 +5093,10 @@
       "path": "system.io.filesystem.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5006,7 +5135,10 @@
       "path": "system.linq/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5078,7 +5210,10 @@
       "path": "system.linq.expressions/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5244,7 +5379,10 @@
       "path": "system.net.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5323,7 +5461,10 @@
       "path": "system.net.sockets/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5361,7 +5502,10 @@
       "path": "system.objectmodel/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5431,7 +5575,10 @@
       "path": "system.reflection/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5512,7 +5659,10 @@
       "path": "system.reflection.emit/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5548,7 +5698,10 @@
       "path": "system.reflection.emit.ilgeneration/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5593,7 +5746,10 @@
       "path": "system.reflection.emit.lightweight/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5638,7 +5794,10 @@
       "path": "system.reflection.extensions/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5695,7 +5854,10 @@
       "path": "system.reflection.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5752,7 +5914,10 @@
       "path": "system.reflection.typeextensions/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5806,7 +5971,10 @@
       "path": "system.resources.resourcemanager/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5863,7 +6031,10 @@
       "path": "system.runtime/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6021,7 +6192,10 @@
       "path": "system.runtime.extensions/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6102,7 +6276,10 @@
       "path": "system.runtime.handles/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6140,7 +6317,10 @@
       "path": "system.runtime.interopservices/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6233,7 +6413,10 @@
       "path": "system.runtime.interopservices.runtimeinformation/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6268,7 +6451,10 @@
       "path": "system.runtime.numerics/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6371,7 +6557,10 @@
       "path": "system.security.cryptography.algorithms/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6475,7 +6664,10 @@
       "path": "system.security.cryptography.csp/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6507,7 +6699,10 @@
       "path": "system.security.cryptography.encoding/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6543,12 +6738,19 @@
       ]
     },
     "System.Security.Cryptography.OpenSsl/4.3.0": {
+<<<<<<< Updated upstream
       "sha512": "h4CEgOgv5PKVF/HwaHzJRiVboL2THYCou97zpmhjghx5frc7fIvlkY1jL+lnIQyChrJDMNEXS6r7byGif8Cy4w==",
+=======
+      "sha512": "vOYy7Jv9KsG3ld2hLt0GoERd82SZi4BelrbXLwI9yFBYX7kpbvUCWYo4eyevk47cuJXZ9ZLVAryANcc7iY71aA==",
+>>>>>>> Stashed changes
       "type": "package",
       "path": "system.security.cryptography.openssl/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.6/System.Security.Cryptography.OpenSsl.dll",
@@ -6597,7 +6799,10 @@
       "path": "system.security.cryptography.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6671,7 +6876,10 @@
       "path": "system.security.cryptography.x509certificates/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6829,7 +7037,10 @@
       "path": "system.text.encoding/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6937,7 +7148,10 @@
       "path": "system.text.encoding.extensions/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7024,7 +7238,10 @@
       "path": "system.text.regularexpressions/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7108,7 +7325,10 @@
       "path": "system.threading/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7179,7 +7399,10 @@
       "path": "system.threading.tasks/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7286,7 +7509,10 @@
       "path": "system.threading.timer/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7362,7 +7588,10 @@
       "path": "system.xml.readerwriter/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7434,7 +7663,10 @@
       "path": "system.xml.xdocument/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7522,12 +7754,20 @@
     ]
   },
   "packageFolders": {
+<<<<<<< Updated upstream
     "C:\\Users\\SISUNIVAG\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+=======
+    "C:\\Users\\Edielson\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+>>>>>>> Stashed changes
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< Updated upstream
       "projectUniqueName": "S:\\DESENVOLVIMENTO\\GIT\\Shopping\\Services\\Services.csproj",
       "projectName": "Services",
       "projectPath": "S:\\DESENVOLVIMENTO\\GIT\\Shopping\\Services\\Services.csproj",
@@ -7541,11 +7781,30 @@
         "C:\\Users\\SISUNIVAG\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+=======
+      "projectUniqueName": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Services\\Services.csproj",
+      "projectName": "Services",
+      "projectPath": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Services\\Services.csproj",
+      "packagesPath": "C:\\Users\\Edielson\\.nuget\\packages\\",
+      "outputPath": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Services\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Edielson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+>>>>>>> Stashed changes
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -7553,6 +7812,7 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+<<<<<<< Updated upstream
             "S:\\DESENVOLVIMENTO\\GIT\\Shopping\\Comnon\\Common.csproj": {
               "projectPath": "S:\\DESENVOLVIMENTO\\GIT\\Shopping\\Comnon\\Common.csproj"
             },
@@ -7561,6 +7821,16 @@
             },
             "S:\\DESENVOLVIMENTO\\GIT\\Shopping\\Models\\Models.csproj": {
               "projectPath": "S:\\DESENVOLVIMENTO\\GIT\\Shopping\\Models\\Models.csproj"
+=======
+            "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Comnon\\Common.csproj": {
+              "projectPath": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Comnon\\Common.csproj"
+            },
+            "C:\\_Cursos\\Curso Wcogeo\\Shopping\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\DataAccess\\DataAccess.csproj"
+            },
+            "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Models\\Models.csproj": {
+              "projectPath": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Models\\Models.csproj"
+>>>>>>> Stashed changes
             }
           }
         }

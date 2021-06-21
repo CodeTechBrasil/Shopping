@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "nbODEHzYpMTstwqWP0u5OgunBgQST6KKVPWj31VMt5cV5XuL5ELQd+cibHgrCDGr10Y1Ms9yk1OrZR6MSBrzRg==",
+  "dgSpecHash": "dXC/gr/34zRbBL2418tHYo5vY/I7UkmuFdSFf2jVmz98S+XB9/uoHMK1SJKXkwMuWnAQr1LTQh+u5RA2ZyN4tg==",
   "success": true,
-  "projectFilePath": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\Models\\Models.csproj",
+  "projectFilePath": "C:\\_Lab\\Shop Oficina\\Models\\Models.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\_Lab\\Shop Oficina\\Models\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

@@ -35,7 +35,7 @@ namespace Services
             }
         }
 
-        public ApplicationType GetFirstOrDefatul(Expression<Func<ApplicationType, bool>> expression = null)
+        public ApplicationType GetFirstOrDefatult(Expression<Func<ApplicationType, bool>> expression = null)
         {
             if(expression == null)
                 return _repo.FirstOrDefault(expression);

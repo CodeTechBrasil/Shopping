@@ -2,7 +2,8 @@
 {
     public static class WC
     {
-
+        public const string SUCCESS = "Success";
+        public const string ERROR = "Error";
     }
     public static class DB
     {
@@ -16,5 +17,7 @@
 
 
         public const string CONNECTION_STRING = "DefaultConnection";
+
+        
     }
 }

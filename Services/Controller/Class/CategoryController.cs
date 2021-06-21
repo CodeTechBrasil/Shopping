@@ -35,7 +35,7 @@ namespace Services
             }
         }
 
-        public Category GetFirstOrDefatul(Expression<Func<Category, bool>> expression = null)
+        public Category GetFirstOrDefatult(Expression<Func<Category, bool>> expression = null)
         {
             if(expression == null)
                 return _repo.FirstOrDefault(expression);

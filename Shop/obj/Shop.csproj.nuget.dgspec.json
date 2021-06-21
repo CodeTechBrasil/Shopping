@@ -1,40 +1,40 @@
 {
   "format": 1,
   "restore": {
-    "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Shop\\Shop.csproj": {}
+    "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\Shop\\Shop.csproj": {}
   },
   "projects": {
-    "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Comnon\\Common.csproj": {
+    "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\Comnon\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Comnon\\Common.csproj",
+        "projectUniqueName": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\Comnon\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Comnon\\Common.csproj",
-        "packagesPath": "C:\\Users\\Edielson\\.nuget\\packages\\",
-        "outputPath": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Comnon\\obj\\",
+        "projectPath": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\Comnon\\Common.csproj",
+        "packagesPath": "C:\\Users\\breno\\.nuget\\packages\\",
+        "outputPath": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\Comnon\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Edielson\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Users\\breno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "E:\\BIBLIOTECAS E DLLS\\FastReport-Dll": {},
+          "E:\\PRODUTIVIDADE-CODIGOS\\Fast-Report\\Nugets\\Core3": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -45,8 +45,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "imports": [
             "net461",
             "net462",
@@ -66,43 +66,43 @@
         }
       }
     },
-    "C:\\_Cursos\\Curso Wcogeo\\Shopping\\DataAccess\\DataAccess.csproj": {
+    "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Edielson\\.nuget\\packages\\",
-        "outputPath": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\DataAccess\\obj\\",
+        "projectPath": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\breno\\.nuget\\packages\\",
+        "outputPath": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Edielson\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Users\\breno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "E:\\BIBLIOTECAS E DLLS\\FastReport-Dll": {},
+          "E:\\PRODUTIVIDADE-CODIGOS\\Fast-Report\\Nugets\\Core3": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Comnon\\Common.csproj": {
-                "projectPath": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Comnon\\Common.csproj"
+              "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\Comnon\\Common.csproj": {
+                "projectPath": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\Comnon\\Common.csproj"
               },
-              "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Models\\Models.csproj": {
-                "projectPath": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Models\\Models.csproj"
+              "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\Models\\Models.csproj": {
+                "projectPath": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\Models\\Models.csproj"
               }
             }
           }
@@ -114,8 +114,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "Dapper": {
               "target": "Package",
@@ -163,37 +163,37 @@
         }
       }
     },
-    "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Models\\Models.csproj": {
+    "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Models\\Models.csproj",
+        "projectUniqueName": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Models\\Models.csproj",
-        "packagesPath": "C:\\Users\\Edielson\\.nuget\\packages\\",
-        "outputPath": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Models\\obj\\",
+        "projectPath": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\breno\\.nuget\\packages\\",
+        "outputPath": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Edielson\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Users\\breno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "E:\\BIBLIOTECAS E DLLS\\FastReport-Dll": {},
+          "E:\\PRODUTIVIDADE-CODIGOS\\Fast-Report\\Nugets\\Core3": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -204,8 +204,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "imports": [
             "net461",
             "net462",
@@ -225,46 +225,46 @@
         }
       }
     },
-    "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Services\\Services.csproj": {
+    "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Services\\Services.csproj",
+        "projectUniqueName": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Services\\Services.csproj",
-        "packagesPath": "C:\\Users\\Edielson\\.nuget\\packages\\",
-        "outputPath": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Services\\obj\\",
+        "projectPath": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\breno\\.nuget\\packages\\",
+        "outputPath": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Edielson\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Users\\breno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "E:\\BIBLIOTECAS E DLLS\\FastReport-Dll": {},
+          "E:\\PRODUTIVIDADE-CODIGOS\\Fast-Report\\Nugets\\Core3": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Comnon\\Common.csproj": {
-                "projectPath": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Comnon\\Common.csproj"
+              "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\Comnon\\Common.csproj": {
+                "projectPath": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\Comnon\\Common.csproj"
               },
-              "C:\\_Cursos\\Curso Wcogeo\\Shopping\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\DataAccess\\DataAccess.csproj"
+              "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Models\\Models.csproj": {
-                "projectPath": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Models\\Models.csproj"
+              "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\Models\\Models.csproj": {
+                "projectPath": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\Models\\Models.csproj"
               }
             }
           }
@@ -276,8 +276,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "imports": [
             "net461",
             "net462",
@@ -297,49 +297,49 @@
         }
       }
     },
-    "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Shop\\Shop.csproj": {
+    "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\Shop\\Shop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Shop\\Shop.csproj",
+        "projectUniqueName": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\Shop\\Shop.csproj",
         "projectName": "Shop",
-        "projectPath": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Shop\\Shop.csproj",
-        "packagesPath": "C:\\Users\\Edielson\\.nuget\\packages\\",
-        "outputPath": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Shop\\obj\\",
+        "projectPath": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\Shop\\Shop.csproj",
+        "packagesPath": "C:\\Users\\breno\\.nuget\\packages\\",
+        "outputPath": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\Shop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Edielson\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Users\\breno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "E:\\BIBLIOTECAS E DLLS\\FastReport-Dll": {},
+          "E:\\PRODUTIVIDADE-CODIGOS\\Fast-Report\\Nugets\\Core3": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Comnon\\Common.csproj": {
-                "projectPath": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Comnon\\Common.csproj"
+              "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\Comnon\\Common.csproj": {
+                "projectPath": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\Comnon\\Common.csproj"
               },
-              "C:\\_Cursos\\Curso Wcogeo\\Shopping\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\DataAccess\\DataAccess.csproj"
+              "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Models\\Models.csproj": {
-                "projectPath": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Models\\Models.csproj"
+              "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\Models\\Models.csproj": {
+                "projectPath": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\Models\\Models.csproj"
               },
-              "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Services\\Services.csproj": {
-                "projectPath": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Services\\Services.csproj"
+              "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\Services\\Services.csproj": {
+                "projectPath": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Shopping\\Services\\Services.csproj"
               }
             }
           }
@@ -351,8 +351,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",

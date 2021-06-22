@@ -1,25 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\_Lab\\Shop Oficina\\Shop\\Shop.csproj": {}
+    "F:\\CodeTechBrasil\\Shop\\Shop.csproj": {}
   },
   "projects": {
-    "C:\\_Lab\\Shop Oficina\\Comnon\\Common.csproj": {
+    "F:\\CodeTechBrasil\\Comnon\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_Lab\\Shop Oficina\\Comnon\\Common.csproj",
+        "projectUniqueName": "F:\\CodeTechBrasil\\Comnon\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\_Lab\\Shop Oficina\\Comnon\\Common.csproj",
-        "packagesPath": "C:\\Users\\Edielson\\.nuget\\packages\\",
-        "outputPath": "C:\\_Lab\\Shop Oficina\\Comnon\\obj\\",
+        "projectPath": "F:\\CodeTechBrasil\\Comnon\\Common.csproj",
+        "packagesPath": "C:\\Users\\aless\\.nuget\\packages\\",
+        "outputPath": "F:\\CodeTechBrasil\\Comnon\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Edielson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aless\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -65,22 +64,21 @@
         }
       }
     },
-    "C:\\_Lab\\Shop Oficina\\DataAccess\\DataAccess.csproj": {
+    "F:\\CodeTechBrasil\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_Lab\\Shop Oficina\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "F:\\CodeTechBrasil\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\_Lab\\Shop Oficina\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Edielson\\.nuget\\packages\\",
-        "outputPath": "C:\\_Lab\\Shop Oficina\\DataAccess\\obj\\",
+        "projectPath": "F:\\CodeTechBrasil\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\aless\\.nuget\\packages\\",
+        "outputPath": "F:\\CodeTechBrasil\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Edielson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aless\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -96,11 +94,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\_Lab\\Shop Oficina\\Comnon\\Common.csproj": {
-                "projectPath": "C:\\_Lab\\Shop Oficina\\Comnon\\Common.csproj"
+              "F:\\CodeTechBrasil\\Comnon\\Common.csproj": {
+                "projectPath": "F:\\CodeTechBrasil\\Comnon\\Common.csproj"
               },
-              "C:\\_Lab\\Shop Oficina\\Models\\Models.csproj": {
-                "projectPath": "C:\\_Lab\\Shop Oficina\\Models\\Models.csproj"
+              "F:\\CodeTechBrasil\\Models\\Models.csproj": {
+                "projectPath": "F:\\CodeTechBrasil\\Models\\Models.csproj"
               }
             }
           }
@@ -169,22 +167,21 @@
         }
       }
     },
-    "C:\\_Lab\\Shop Oficina\\Models\\Models.csproj": {
+    "F:\\CodeTechBrasil\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_Lab\\Shop Oficina\\Models\\Models.csproj",
+        "projectUniqueName": "F:\\CodeTechBrasil\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\_Lab\\Shop Oficina\\Models\\Models.csproj",
-        "packagesPath": "C:\\Users\\Edielson\\.nuget\\packages\\",
-        "outputPath": "C:\\_Lab\\Shop Oficina\\Models\\obj\\",
+        "projectPath": "F:\\CodeTechBrasil\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\aless\\.nuget\\packages\\",
+        "outputPath": "F:\\CodeTechBrasil\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Edielson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aless\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -230,22 +227,21 @@
         }
       }
     },
-    "C:\\_Lab\\Shop Oficina\\Services\\Services.csproj": {
+    "F:\\CodeTechBrasil\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_Lab\\Shop Oficina\\Services\\Services.csproj",
+        "projectUniqueName": "F:\\CodeTechBrasil\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\_Lab\\Shop Oficina\\Services\\Services.csproj",
-        "packagesPath": "C:\\Users\\Edielson\\.nuget\\packages\\",
-        "outputPath": "C:\\_Lab\\Shop Oficina\\Services\\obj\\",
+        "projectPath": "F:\\CodeTechBrasil\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\aless\\.nuget\\packages\\",
+        "outputPath": "F:\\CodeTechBrasil\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Edielson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aless\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -261,14 +257,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\_Lab\\Shop Oficina\\Comnon\\Common.csproj": {
-                "projectPath": "C:\\_Lab\\Shop Oficina\\Comnon\\Common.csproj"
+              "F:\\CodeTechBrasil\\Comnon\\Common.csproj": {
+                "projectPath": "F:\\CodeTechBrasil\\Comnon\\Common.csproj"
               },
-              "C:\\_Lab\\Shop Oficina\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\_Lab\\Shop Oficina\\DataAccess\\DataAccess.csproj"
+              "F:\\CodeTechBrasil\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "F:\\CodeTechBrasil\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\_Lab\\Shop Oficina\\Models\\Models.csproj": {
-                "projectPath": "C:\\_Lab\\Shop Oficina\\Models\\Models.csproj"
+              "F:\\CodeTechBrasil\\Models\\Models.csproj": {
+                "projectPath": "F:\\CodeTechBrasil\\Models\\Models.csproj"
               }
             }
           }
@@ -301,22 +297,21 @@
         }
       }
     },
-    "C:\\_Lab\\Shop Oficina\\Shop\\Shop.csproj": {
+    "F:\\CodeTechBrasil\\Shop\\Shop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_Lab\\Shop Oficina\\Shop\\Shop.csproj",
+        "projectUniqueName": "F:\\CodeTechBrasil\\Shop\\Shop.csproj",
         "projectName": "Shop",
-        "projectPath": "C:\\_Lab\\Shop Oficina\\Shop\\Shop.csproj",
-        "packagesPath": "C:\\Users\\Edielson\\.nuget\\packages\\",
-        "outputPath": "C:\\_Lab\\Shop Oficina\\Shop\\obj\\",
+        "projectPath": "F:\\CodeTechBrasil\\Shop\\Shop.csproj",
+        "packagesPath": "C:\\Users\\aless\\.nuget\\packages\\",
+        "outputPath": "F:\\CodeTechBrasil\\Shop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Edielson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aless\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -332,17 +327,17 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\_Lab\\Shop Oficina\\Comnon\\Common.csproj": {
-                "projectPath": "C:\\_Lab\\Shop Oficina\\Comnon\\Common.csproj"
+              "F:\\CodeTechBrasil\\Comnon\\Common.csproj": {
+                "projectPath": "F:\\CodeTechBrasil\\Comnon\\Common.csproj"
               },
-              "C:\\_Lab\\Shop Oficina\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\_Lab\\Shop Oficina\\DataAccess\\DataAccess.csproj"
+              "F:\\CodeTechBrasil\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "F:\\CodeTechBrasil\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\_Lab\\Shop Oficina\\Models\\Models.csproj": {
-                "projectPath": "C:\\_Lab\\Shop Oficina\\Models\\Models.csproj"
+              "F:\\CodeTechBrasil\\Models\\Models.csproj": {
+                "projectPath": "F:\\CodeTechBrasil\\Models\\Models.csproj"
               },
-              "C:\\_Lab\\Shop Oficina\\Services\\Services.csproj": {
-                "projectPath": "C:\\_Lab\\Shop Oficina\\Services\\Services.csproj"
+              "F:\\CodeTechBrasil\\Services\\Services.csproj": {
+                "projectPath": "F:\\CodeTechBrasil\\Services\\Services.csproj"
               }
             }
           }

@@ -8,27 +8,25 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Edielson\\.nuget\\packages\\": {},
+    "C:\\Users\\aless\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\_Lab\\Shop Oficina\\Models\\Models.csproj",
+      "projectUniqueName": "F:\\CodeTechBrasil\\Models\\Models.csproj",
       "projectName": "Models",
-      "projectPath": "C:\\_Lab\\Shop Oficina\\Models\\Models.csproj",
-      "packagesPath": "C:\\Users\\Edielson\\.nuget\\packages\\",
-      "outputPath": "C:\\_Lab\\Shop Oficina\\Models\\obj\\",
+      "projectPath": "F:\\CodeTechBrasil\\Models\\Models.csproj",
+      "packagesPath": "C:\\Users\\aless\\.nuget\\packages\\",
+      "outputPath": "F:\\CodeTechBrasil\\Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Edielson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\aless\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -73,13 +71,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\_Lab\\Shop Oficina\\Models\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

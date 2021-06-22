@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dXC/gr/34zRbBL2418tHYo5vY/I7UkmuFdSFf2jVmz98S+XB9/uoHMK1SJKXkwMuWnAQr1LTQh+u5RA2ZyN4tg==",
+  "dgSpecHash": "rgnxHDhFIeUTL5hor+DUhzxiuYi7vm8Nfgn7Nnfcw4jw6V3kSOOSpUcrXKriY6rp6MRSejT2Pil6JZzrcxeKPQ==",
   "success": true,
-  "projectFilePath": "C:\\_Lab\\Shop Oficina\\Models\\Models.csproj",
+  "projectFilePath": "F:\\CodeTechBrasil\\Models\\Models.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\_Lab\\Shop Oficina\\Models\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

@@ -22,3 +22,15 @@ C:\_Lab\Shop Oficina\Comnon\obj\Debug\net5.0\Common.csproj.CoreCompileInputs.cac
 C:\_Lab\Shop Oficina\Comnon\obj\Debug\net5.0\Common.dll
 C:\_Lab\Shop Oficina\Comnon\obj\Debug\net5.0\ref\Common.dll
 C:\_Lab\Shop Oficina\Comnon\obj\Debug\net5.0\Common.pdb
+F:\CodeTechBrasil\Comnon\bin\Debug\net5.0\Common.deps.json
+F:\CodeTechBrasil\Comnon\bin\Debug\net5.0\Common.dll
+F:\CodeTechBrasil\Comnon\bin\Debug\net5.0\ref\Common.dll
+F:\CodeTechBrasil\Comnon\bin\Debug\net5.0\Common.pdb
+F:\CodeTechBrasil\Comnon\obj\Debug\net5.0\Common.csproj.AssemblyReference.cache
+F:\CodeTechBrasil\Comnon\obj\Debug\net5.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+F:\CodeTechBrasil\Comnon\obj\Debug\net5.0\Common.AssemblyInfoInputs.cache
+F:\CodeTechBrasil\Comnon\obj\Debug\net5.0\Common.AssemblyInfo.cs
+F:\CodeTechBrasil\Comnon\obj\Debug\net5.0\Common.csproj.CoreCompileInputs.cache
+F:\CodeTechBrasil\Comnon\obj\Debug\net5.0\Common.dll
+F:\CodeTechBrasil\Comnon\obj\Debug\net5.0\ref\Common.dll
+F:\CodeTechBrasil\Comnon\obj\Debug\net5.0\Common.pdb

@@ -11,11 +11,7 @@ namespace DataAccess
         }
         public void Update(ApplicationType obj)
         {
-            var objFromDb = base.FirstOrDefault(u => u.Id == obj.Id);
-            if (objFromDb != null)
-                objFromDb.Map(obj);
-
-            _db.Update(objFromDb);
+            _db.Update(obj);
         }
     }
 }

@@ -37,7 +37,7 @@ namespace Services
 
         public Category GetFirstOrDefatult(Expression<Func<Category, bool>> expression = null)
         {
-            if(expression == null)
+            if(expression != null)
                 return _repo.FirstOrDefault(expression);
 
             return _repo.FirstOrDefault();
@@ -45,7 +45,7 @@ namespace Services
 
         public IEnumerable<Category> LoadData(Expression<Func<Category, bool>> expression = null)
         {
-            if (expression == null)
+            if (expression != null)
                 return _repo.GetAll(expression);
 
             return _repo.GetAll();
@@ -75,6 +75,7 @@ namespace Services
                 if (objFromDb == null)
                     return false;
 
+                 objFromDb.Map(obj);
                 _repo.Update(objFromDb);
                 _repo.Save();
 

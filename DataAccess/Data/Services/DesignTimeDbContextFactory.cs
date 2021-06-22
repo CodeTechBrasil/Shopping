@@ -27,6 +27,7 @@ namespace DataAccess
 
             //CRIA UMA INSTÂNCIA DBCONTEXT E CONFIGURA A CONEXÃO DE STRING.
             var builder = new DbContextOptionsBuilder<ApplicationDbContext>();
+
             builder.UseSqlServer(connectionString);
 
             //RETORNA O DBCONTEX CONFIGURADO.

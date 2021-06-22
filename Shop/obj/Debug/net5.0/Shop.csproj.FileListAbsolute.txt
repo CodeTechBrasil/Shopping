@@ -772,6 +772,10 @@ C:\_Lab\Shop Oficina\Shop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Home\Index.cs
 C:\_Lab\Shop Oficina\Shop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Home\Privacy.cshtml.g.cs
 C:\_Lab\Shop Oficina\Shop\obj\Debug\net5.0\Razor\Areas\Admin\_ViewImports.cshtml.g.cs
 C:\_Lab\Shop Oficina\Shop\obj\Debug\net5.0\Razor\Areas\Admin\_ViewStart.cshtml.g.cs
+C:\_Lab\Shop Oficina\Shop\obj\Debug\net5.0\Razor\Areas\Cadastro\Views\Category\Create.cshtml.g.cs
+C:\_Lab\Shop Oficina\Shop\obj\Debug\net5.0\Razor\Areas\Cadastro\Views\Category\Delete.cshtml.g.cs
+C:\_Lab\Shop Oficina\Shop\obj\Debug\net5.0\Razor\Areas\Cadastro\Views\Category\Edit.cshtml.g.cs
+C:\_Lab\Shop Oficina\Shop\obj\Debug\net5.0\Razor\Areas\Cadastro\Views\Category\Index.cshtml.g.cs
 C:\_Lab\Shop Oficina\Shop\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\_Lab\Shop Oficina\Shop\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\_Lab\Shop Oficina\Shop\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -785,7 +789,3 @@ C:\_Lab\Shop Oficina\Shop\obj\Debug\net5.0\Shop.dll
 C:\_Lab\Shop Oficina\Shop\obj\Debug\net5.0\ref\Shop.dll
 C:\_Lab\Shop Oficina\Shop\obj\Debug\net5.0\Shop.pdb
 C:\_Lab\Shop Oficina\Shop\obj\Debug\net5.0\Shop.genruntimeconfig.cache
-C:\_Lab\Shop Oficina\Shop\obj\Debug\net5.0\Razor\Areas\Cadastro\Views\Category\Create.cshtml.g.cs
-C:\_Lab\Shop Oficina\Shop\obj\Debug\net5.0\Razor\Areas\Cadastro\Views\Category\Delete.cshtml.g.cs
-C:\_Lab\Shop Oficina\Shop\obj\Debug\net5.0\Razor\Areas\Cadastro\Views\Category\Edit.cshtml.g.cs
-C:\_Lab\Shop Oficina\Shop\obj\Debug\net5.0\Razor\Areas\Cadastro\Views\Category\Index.cshtml.g.cs

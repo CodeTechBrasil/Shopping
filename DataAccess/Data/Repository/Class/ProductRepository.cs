@@ -37,10 +37,6 @@ namespace DataAccess
 
         public void Update(Product obj)
         {
-            var objFromDb = base.FirstOrDefault(u => u.Id == obj.Id);
-            if (objFromDb != null)
-                objFromDb.Map(obj);
-
             _db.Product.Update(obj);
         }
     }

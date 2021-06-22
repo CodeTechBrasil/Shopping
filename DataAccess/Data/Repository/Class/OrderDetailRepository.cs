@@ -12,10 +12,6 @@ namespace DataAccess
 
         public void Update(OrderDetail obj)
         {
-            var objFromDb = base.FirstOrDefault(u => u.Id == obj.Id);
-            if (objFromDb != null)
-                objFromDb.Map(obj);
-
             _db.OrderDetail.Update(obj);
         }
     }

@@ -1,0 +1,32 @@
+﻿@using Common
+
+@if (TempData[WC.SUCCESS] != null)
+{
+
+    <script src="~/js/jquery/jquery.js"></script>
+    <script src="~/js/toastrDisplay.js"></script>
+    <script src="~/js/sweetalert2.js"></script>
+    <script type="text/javascript">
+        toastr.options = {
+            "closeButton": true,
+            "progressBar": true,
+            "positionClass": "toast-top-full-width"
+        }
+        toastr.success('@TempData[WC.SUCCESS]');
+    </script>
+}
+@if (TempData[WC.ERROR] != null)
+{
+    <script src="~/js/jquery/jquery.js"></script>
+    <script src="~/js/toastrDisplay.js"></script>
+    <script src="~/js/sweetalert2.js"></script>
+    <script type="text/javascript">
+        toastr.options = {
+            "closeButton": true,
+            "progressBar": true,
+            "positionClass": "toast-top-full-width"
+        }
+        toastr.error('@TempData[WC.ERROR]');
+
+    </script>
+}

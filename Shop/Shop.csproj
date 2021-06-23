@@ -6,14 +6,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Controllers\**" />
     <Compile Remove="Views\Home\**" />
+    <Content Remove="Controllers\**" />
     <Content Remove="Views\Home\**" />
+    <EmbeddedResource Remove="Controllers\**" />
     <EmbeddedResource Remove="Views\Home\**" />
+    <None Remove="Controllers\**" />
     <None Remove="Views\Home\**" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.7" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,7 +29,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
     <Folder Include="wwwroot\images\" />
     <Folder Include="wwwroot\reports\" />
   </ItemGroup>
@@ -1704,6 +1708,15 @@
     <None Include="wwwroot\fontawesome\webfonts\fa-regular-400.woff2" />
     <None Include="wwwroot\fontawesome\webfonts\fa-solid-900.svg" />
     <None Include="wwwroot\fontawesome\webfonts\fa-solid-900.woff2" />
+    <None Include="wwwroot\js\jquery\additional-methods.js" />
+    <None Include="wwwroot\js\jquery\additional-methods.min.js" />
+    <None Include="wwwroot\js\jquery\jquery.js" />
+    <None Include="wwwroot\js\jquery\jquery.min.js" />
+    <None Include="wwwroot\js\jquery\jquery.min.map" />
+    <None Include="wwwroot\js\jquery\jquery.validate.js" />
+    <None Include="wwwroot\js\jquery\jquery.validate.min.js" />
+    <None Include="wwwroot\js\jquery\jquery.validate.unobtrusive.js" />
+    <None Include="wwwroot\js\jquery\jquery.validate.unobtrusive.min.js" />
   </ItemGroup>
 
 </Project>

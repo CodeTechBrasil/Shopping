@@ -8,19 +8,19 @@ using System.Collections.Generic;
 namespace Shop.Controllers
 {
     [Area("Cadastro")]
-    public class CategoryController : Controller
+    public class ApplicationTypeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
 
-        private readonly ICategoryController _catRepo;
-        public CategoryController(ICategoryController catRepo)
+        private readonly IApplicationTypeController _repo;
+        public ApplicationTypeController(IApplicationTypeController repo)
         {
-            _catRepo = catRepo;
+            _repo = repo;
         }
 
         public IActionResult Index()
         {
-            var objList = _catRepo.LoadData();
+            var objList = _repo.LoadData();
             return View(objList);
         }
 
@@ -34,12 +34,12 @@ namespace Shop.Controllers
         //POST - CREATE
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(Category obj)
+        public IActionResult Create(ApplicationType obj)
         {
             if (ModelState.IsValid)
             {
-                _catRepo.Save(obj);
-                TempData[WC.SUCCESS] = "Category created successfully";
+                _repo.Save(obj);
+                TempData[WC.SUCCESS] = "ApplicationType created successfully";
                 return RedirectToAction("Index");
             }
             TempData[WC.ERROR] = "Error while creating category";
@@ -54,7 +54,7 @@ namespace Shop.Controllers
             if (id == null || id == 0)
                 return NotFound();
 
-            var obj = _catRepo.GetFirstOrDefatult(x => x.Id ==  id.GetValueOrDefault());
+            var obj = _repo.GetFirstOrDefatult(x => x.Id ==  id.GetValueOrDefault());
             if (obj == null)
                 return NotFound();
             return View(obj);
@@ -63,11 +63,11 @@ namespace Shop.Controllers
         //POST - EDIT
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit(Category obj)
+        public IActionResult Edit(ApplicationType obj)
         {
             if (ModelState.IsValid)
             {
-                _catRepo.Update(obj);
+                _repo.Update(obj);
                 TempData[WC.SUCCESS] = "Action completed successfully";
                 return RedirectToAction("Index");
             }
@@ -81,7 +81,7 @@ namespace Shop.Controllers
             if (id == null || id == 0)
                 return NotFound();
 
-            var obj = _catRepo.GetFirstOrDefatult(x => x.Id == id.GetValueOrDefault());
+            var obj = _repo.GetFirstOrDefatult(x => x.Id == id.GetValueOrDefault());
             if (obj == null)
                 return NotFound();
             return View(obj);
@@ -92,7 +92,7 @@ namespace Shop.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult DeletePost(int? id)
         {
-            if(_catRepo.DeleteId(id.GetValueOrDefault())) 
+            if(_repo.DeleteId(id.GetValueOrDefault())) 
                 TempData[WC.SUCCESS] = "Action completed successfully";
             else
             {

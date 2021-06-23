@@ -11,5 +11,6 @@ namespace Services
         bool Save(T obj);
         bool Update(T obj);
         bool Delete(T obj);
+        bool DeleteId(int id);
     }
 }

@@ -1,4 +1,4 @@
-﻿@model Models.Category
+﻿@model Models.ApplicationType
 @{
     var title = "Excluir";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -7,10 +7,10 @@
     <div class="border p-3 bg-white">
         @*<div asp-validation-summary="ModelOnly" class="text-danger"></div>*@
         <div class="form-group row">
-            <h2 class="text-info pl-3">Add Category</h2>
+            <h2 class="text-info pl-3">Add Application Type</h2>
         </div>
         <div class="row">
-            <div class="col-8">
+            <div class="col-12">
                 <div class="form-group row py-2">
                     <div class="col-4">
                         <label asp-for="Name"></label>
@@ -18,16 +18,6 @@
                     <div class="col-8">
                         <input asp-for="Name" class="form-control" />
                         <span asp-validation-for="Name" class="text-danger"></span>
-                    </div>
-
-                </div>
-                <div class="form-group row py-2">
-                    <div class="col-4">
-                        <label asp-for="DisplayOrder"></label>
-                    </div>
-                    <div class="col-8">
-                        <input asp-for="DisplayOrder" class="form-control" />
-                        <span asp-validation-for="DisplayOrder" class="text-danger"></span>
                     </div>
 
                 </div>

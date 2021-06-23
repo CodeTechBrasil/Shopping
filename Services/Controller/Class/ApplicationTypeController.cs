@@ -35,6 +35,26 @@ namespace Services
             }
         }
 
+        public bool DeleteId(int id)
+        {
+            try
+            {
+                var objFromDb = _repo.Find(id);
+                if (objFromDb == null)
+                    return false;
+
+                _repo.Remove(objFromDb);
+                _repo.Save();
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return false;
+            }
+        }
+
         public ApplicationType GetFirstOrDefatult(Expression<Func<ApplicationType, bool>> expression = null)
         {
             if(expression != null)

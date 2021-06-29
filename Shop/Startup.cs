@@ -49,9 +49,11 @@ namespace Shop
 
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<IApplicationTypeRepository, ApplicationTypeRepository>();
+            services.AddScoped<IProductController, ProductController>();
 
             services.AddScoped<ICategoryController, CategoryController>();
             services.AddScoped<IApplicationTypeController, ApplicationTypeController>();
+            services.AddScoped<IProductRepository, ProductRepository>();
         }
 
 

@@ -4,6 +4,7 @@
     {
         public const string SUCCESS = "Success";
         public const string ERROR = "Error";
+        public const string IMAGE_PATH = @"\images\product\";
     }
     public static class DB
     {

@@ -26,7 +26,7 @@ namespace DataAccess
                 .HasKey(x => x.Id);
 
             builder
-                .Property(x => x.Id)      // PROPRIEDADE QUE SERÁ VINCULADA COM A CRIAÇÃO
+                .Property(x => x.Id)            // PROPRIEDADE QUE SERÁ VINCULADA COM A CRIAÇÃO
                 .HasColumnName("Id")            // INFORMA COMO SERÁ O NOME DA COLUNA.
                 //.HasColumnType("int")         // INFORMA O TIPO QUE SERÁ CRIADO, CASO NÃO INFORMADO O ENTITY VAI PEGAR O CAMPO DECLARADO NA VARIÁVEL.
                 .ValueGeneratedOnAdd();         // INFORMA QUE O CAMPO ID SERÁ AUTO INCREMENTO.

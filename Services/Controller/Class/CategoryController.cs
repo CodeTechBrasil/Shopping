@@ -10,32 +10,9 @@ namespace Services
     {
         private readonly ICategoryRepository _repo;
 
-        public CategoryController(ICategoryRepository repo)
-        {
-            _repo = repo;
-        }
+        public CategoryController(ICategoryRepository repo) => _repo = repo;
 
-        public bool Delete(Category obj)
-        {
-            try
-            {
-                var objFromDb = _repo.Find(obj.Id);
-                if (objFromDb == null)
-                    return false;
-
-                _repo.Remove(objFromDb);
-                _repo.Save();
-
-                return true;
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-                return false;
-            }
-        }
-
-        public bool DeleteId(int id)
+        public bool Delete(int id)
         {
             try
             {
@@ -57,7 +34,7 @@ namespace Services
 
         public Category GetFirstOrDefatult(Expression<Func<Category, bool>> expression = null)
         {
-            if(expression != null)
+            if (expression != null)
                 return _repo.FirstOrDefault(expression);
 
             return _repo.FirstOrDefault();
@@ -95,7 +72,7 @@ namespace Services
                 if (objFromDb == null)
                     return false;
 
-                 objFromDb.Map(obj);
+                objFromDb.Map(obj);
                 _repo.Update(objFromDb);
                 _repo.Save();
 

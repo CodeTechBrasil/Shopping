@@ -22,3 +22,15 @@ C:\_Lab\Shop Oficina\Comnon\obj\Debug\net5.0\Common.csproj.CoreCompileInputs.cac
 C:\_Lab\Shop Oficina\Comnon\obj\Debug\net5.0\Common.dll
 C:\_Lab\Shop Oficina\Comnon\obj\Debug\net5.0\ref\Common.dll
 C:\_Lab\Shop Oficina\Comnon\obj\Debug\net5.0\Common.pdb
+C:\_Cursos\Curso Wcogeo\Shopping\Comnon\bin\Debug\net5.0\Common.deps.json
+C:\_Cursos\Curso Wcogeo\Shopping\Comnon\bin\Debug\net5.0\Common.dll
+C:\_Cursos\Curso Wcogeo\Shopping\Comnon\bin\Debug\net5.0\ref\Common.dll
+C:\_Cursos\Curso Wcogeo\Shopping\Comnon\bin\Debug\net5.0\Common.pdb
+C:\_Cursos\Curso Wcogeo\Shopping\Comnon\obj\Debug\net5.0\Common.csprojAssemblyReference.cache
+C:\_Cursos\Curso Wcogeo\Shopping\Comnon\obj\Debug\net5.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\_Cursos\Curso Wcogeo\Shopping\Comnon\obj\Debug\net5.0\Common.AssemblyInfoInputs.cache
+C:\_Cursos\Curso Wcogeo\Shopping\Comnon\obj\Debug\net5.0\Common.AssemblyInfo.cs
+C:\_Cursos\Curso Wcogeo\Shopping\Comnon\obj\Debug\net5.0\Common.csproj.CoreCompileInputs.cache
+C:\_Cursos\Curso Wcogeo\Shopping\Comnon\obj\Debug\net5.0\Common.dll
+C:\_Cursos\Curso Wcogeo\Shopping\Comnon\obj\Debug\net5.0\ref\Common.dll
+C:\_Cursos\Curso Wcogeo\Shopping\Comnon\obj\Debug\net5.0\Common.pdb

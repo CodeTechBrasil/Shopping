@@ -1,17 +1,13 @@
 ﻿using Common;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using Models;
 using Services;
-using System.Collections.Generic;
 
 namespace Shop.Controllers
 {
     [Area("Cadastro")]
     public class CategoryController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
         private readonly ICategoryController _catRepo;
         public CategoryController(ICategoryController catRepo)
         {
@@ -92,7 +88,7 @@ namespace Shop.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult DeletePost(int? id)
         {
-            if(_catRepo.DeleteId(id.GetValueOrDefault())) 
+            if(_catRepo.Delete(id.GetValueOrDefault())) 
                 TempData[WC.SUCCESS] = "Action completed successfully";
             else
             {

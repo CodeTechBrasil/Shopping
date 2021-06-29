@@ -20,7 +20,7 @@ namespace Models
 
         [Range(1, int.MaxValue)]
         public decimal Price { get; set; }
-        public byte[] Image { get; set; }
+        public string Image { get; set; }
 
         [Display(Name = "Category Type")]
         public int CategoryId { get; set; }

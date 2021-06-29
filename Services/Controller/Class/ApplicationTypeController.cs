@@ -10,32 +10,9 @@ namespace Services
     {
         private readonly IApplicationTypeRepository _repo;
 
-        public ApplicationTypeController(IApplicationTypeRepository repo)
-        {
-            _repo = repo;
-        }
+        public ApplicationTypeController(IApplicationTypeRepository repo) => _repo = repo;
 
-        public bool Delete(ApplicationType obj)
-        {
-            try
-            {
-                var objFromDb = _repo.Find(obj.Id);
-                if (objFromDb == null)
-                    return false;
-
-                _repo.Remove(objFromDb);
-                _repo.Save();
-
-                return true;
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-                return false;
-            }
-        }
-
-        public bool DeleteId(int id)
+        public bool Delete(int id)
         {
             try
             {
@@ -57,7 +34,7 @@ namespace Services
 
         public ApplicationType GetFirstOrDefatult(Expression<Func<ApplicationType, bool>> expression = null)
         {
-            if(expression != null)
+            if (expression != null)
                 return _repo.FirstOrDefault(expression);
 
             return _repo.FirstOrDefault();

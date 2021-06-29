@@ -10,7 +10,6 @@ namespace Services
         T GetFirstOrDefatult(Expression<Func<T, bool>> expression = null);
         bool Save(T obj);
         bool Update(T obj);
-        bool Delete(T obj);
-        bool DeleteId(int id);
+        bool Delete(int id);
     }
 }

@@ -1,0 +1,16 @@
+.nav-header{
+    background-color: #f98a00  !important;
+
+}
+
+.nav-header a{
+    color: white !important;
+}
+
+.dropdown-categoria a{
+ color: #f97300 !important;
+}
+
+.slide{
+    height: 419px;
+}

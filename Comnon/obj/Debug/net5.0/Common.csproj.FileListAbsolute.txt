@@ -34,3 +34,15 @@ C:\_Cursos\Curso Wcogeo\Shopping\Comnon\obj\Debug\net5.0\Common.csproj.CoreCompi
 C:\_Cursos\Curso Wcogeo\Shopping\Comnon\obj\Debug\net5.0\Common.dll
 C:\_Cursos\Curso Wcogeo\Shopping\Comnon\obj\Debug\net5.0\ref\Common.dll
 C:\_Cursos\Curso Wcogeo\Shopping\Comnon\obj\Debug\net5.0\Common.pdb
+S:\DESENVOLVIMENTO\GIT\Shopping\Comnon\bin\Debug\net5.0\Common.deps.json
+S:\DESENVOLVIMENTO\GIT\Shopping\Comnon\bin\Debug\net5.0\Common.dll
+S:\DESENVOLVIMENTO\GIT\Shopping\Comnon\bin\Debug\net5.0\ref\Common.dll
+S:\DESENVOLVIMENTO\GIT\Shopping\Comnon\bin\Debug\net5.0\Common.pdb
+S:\DESENVOLVIMENTO\GIT\Shopping\Comnon\obj\Debug\net5.0\Common.csproj.AssemblyReference.cache
+S:\DESENVOLVIMENTO\GIT\Shopping\Comnon\obj\Debug\net5.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+S:\DESENVOLVIMENTO\GIT\Shopping\Comnon\obj\Debug\net5.0\Common.AssemblyInfoInputs.cache
+S:\DESENVOLVIMENTO\GIT\Shopping\Comnon\obj\Debug\net5.0\Common.AssemblyInfo.cs
+S:\DESENVOLVIMENTO\GIT\Shopping\Comnon\obj\Debug\net5.0\Common.csproj.CoreCompileInputs.cache
+S:\DESENVOLVIMENTO\GIT\Shopping\Comnon\obj\Debug\net5.0\Common.dll
+S:\DESENVOLVIMENTO\GIT\Shopping\Comnon\obj\Debug\net5.0\ref\Common.dll
+S:\DESENVOLVIMENTO\GIT\Shopping\Comnon\obj\Debug\net5.0\Common.pdb

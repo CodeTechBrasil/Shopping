@@ -56,3 +56,23 @@ C:\_Cursos\Curso Wcogeo\Shopping\DataAccess\obj\Debug\net5.0\DataAccess.dll
 C:\_Cursos\Curso Wcogeo\Shopping\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll
 C:\_Cursos\Curso Wcogeo\Shopping\DataAccess\obj\Debug\net5.0\DataAccess.pdb
 C:\_Cursos\Curso Wcogeo\Shopping\DataAccess\obj\Debug\net5.0\DataAccess.genruntimeconfig.cache
+S:\DESENVOLVIMENTO\GIT\Shopping\DataAccess\bin\Debug\net5.0\DataAccess.deps.json
+S:\DESENVOLVIMENTO\GIT\Shopping\DataAccess\bin\Debug\net5.0\DataAccess.runtimeconfig.json
+S:\DESENVOLVIMENTO\GIT\Shopping\DataAccess\bin\Debug\net5.0\DataAccess.runtimeconfig.dev.json
+S:\DESENVOLVIMENTO\GIT\Shopping\DataAccess\bin\Debug\net5.0\DataAccess.dll
+S:\DESENVOLVIMENTO\GIT\Shopping\DataAccess\bin\Debug\net5.0\ref\DataAccess.dll
+S:\DESENVOLVIMENTO\GIT\Shopping\DataAccess\bin\Debug\net5.0\DataAccess.pdb
+S:\DESENVOLVIMENTO\GIT\Shopping\DataAccess\bin\Debug\net5.0\Common.dll
+S:\DESENVOLVIMENTO\GIT\Shopping\DataAccess\bin\Debug\net5.0\Models.dll
+S:\DESENVOLVIMENTO\GIT\Shopping\DataAccess\bin\Debug\net5.0\Common.pdb
+S:\DESENVOLVIMENTO\GIT\Shopping\DataAccess\bin\Debug\net5.0\Models.pdb
+S:\DESENVOLVIMENTO\GIT\Shopping\DataAccess\obj\Debug\net5.0\DataAccess.csproj.AssemblyReference.cache
+S:\DESENVOLVIMENTO\GIT\Shopping\DataAccess\obj\Debug\net5.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+S:\DESENVOLVIMENTO\GIT\Shopping\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfoInputs.cache
+S:\DESENVOLVIMENTO\GIT\Shopping\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfo.cs
+S:\DESENVOLVIMENTO\GIT\Shopping\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CoreCompileInputs.cache
+S:\DESENVOLVIMENTO\GIT\Shopping\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CopyComplete
+S:\DESENVOLVIMENTO\GIT\Shopping\DataAccess\obj\Debug\net5.0\DataAccess.dll
+S:\DESENVOLVIMENTO\GIT\Shopping\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll
+S:\DESENVOLVIMENTO\GIT\Shopping\DataAccess\obj\Debug\net5.0\DataAccess.pdb
+S:\DESENVOLVIMENTO\GIT\Shopping\DataAccess\obj\Debug\net5.0\DataAccess.genruntimeconfig.cache

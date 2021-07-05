@@ -1,89 +1,72 @@
 ﻿@model Models.Product
 @using Common
 
-
-<form method="post">
-
+<form method="post" asp-area="Cadastro" asp-controller="Product" asp-action="DeletePost">
     <input asp-for="Id" hidden />
+    <div class="card container  ">
+        <div class="card-header controlColor mt-3">
 
-    <div class="border p-3 bg-white">
-
-        <div class="form-group row">
-            <h2 class="text-info pl-3">Delete Product</h2>
+            <div class="col-12">
+                <h2 class="">Delete Product</h2>
+                <br />
+            </div>
         </div>
-        <div class="row">
-            <div class="col-8">
-                <div class="form-group row py-2">
-                    <div class="col-4">
-                        <label asp-for="Name"></label>
-                    </div>
-                    <div class="col-8">
-                        <input asp-for="Name" disabled class="form-control" />
-                    </div>
-
-                </div>
-                <div class="form-group row py-2">
-                    <div class="col-4">
-                        <label asp-for="Price"></label>
-                    </div>
-                    <div class="col-8">
-                        <input asp-for="Price" disabled class="form-control" />
-                    </div>
-
-                </div>
-                <div class="form-group row py-2">
-                    <div class="col-4">
-                        <label asp-for="Description"></label>
-                    </div>
-                    <div class="col-8">
-                        <textarea asp-for="Description" class="form-control summernote"></textarea>
-                    </div>
-
-                </div>
-
-                <div class="form-group row py-2">
-                    <div class="col-4">
-                        <label asp-for="CategoryId"></label>
-                    </div>
-                    <div class="col-8">
-                        <input asp-for="Category.Name" disabled class="form-control" />
-                    </div>
-
-                </div>
-                <div class="form-group row py-2">
-                    <div class="col-4">
-                        <label asp-for="ApplicationTypeId"></label>
-                    </div>
-                    <div class="col-8">
-                        <input asp-for="ApplicationType.Name" disabled class="form-control" />
-                    </div>
-
-                </div>
-                <div class="form-group row py-2">
-                    <div class="col-8 offset-4 row">
-
-                        <div class="col">
-
-                            <button type="submit" class="btn btn-danger w-100">Delete</button>
-
-
+        <div class="card-body">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="form-group row py-2">
+                        <div class="col-9">
+                            <label asp-for="Name"></label>
+                            <input asp-for="Name" disabled class="form-control text-danger" />
                         </div>
-                        <div class="col">
-                            <a asp-action="Index" class="btn btn-success w-100"><i class="fas fa-sign-out-alt"></i> Back</a>
+                        <div class="col-3">
+                            <label asp-for="Price"></label>
+                            <input asp-for="Price" disabled class="form-control text-danger" />
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-4 ">
-                @* Keep this empty *@
-                @if (Model.Id != 0)
-                {
-                    <img src="@WC.IMAGE_PATH@Model.Image" class="w-100" style="border-radius:5px; border:1px solid #bbb" />
-                }
+            <div class="row">
+                <div class="col-12">
+                    <div class="form-group row py-2">
+                        <div class="col-12">
+                            <label asp-for="Description"></label>
+                            <input asp-for="Description" disabled class="form-control text-danger" />
+                        </div>
+                    </div>
+                </div>
             </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="form-group row py-2">
+                        <div class="col-6">
+                            <label asp-for="CategoryId"></label>
+                            <input asp-for="Category.Name" disabled class="form-control text-danger" />
+                        </div>
+                        <div class="col-6">
+                            <label asp-for="ApplicationTypeId"></label>
+                            <input asp-for="ApplicationType.Name" disabled class="form-control text-danger" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="form-group row py-2">
+                        <div class="col-12">
+                            <partial name="_DeleteAndBackToListButton" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-footer controlColor mb-3">
+            <p>Delete Record</p>
         </div>
     </div>
-
 </form>
 
 @section Scripts{

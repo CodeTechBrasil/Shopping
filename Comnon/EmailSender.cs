@@ -42,8 +42,8 @@ namespace Common
                             "From",
                             new JObject
                             {
-                                {"Email", "meuemail@protonmail.com"},
-                                {"Name", "NOME DO USUARIO"}
+                                {"Email", "desenvolvedor.shop@protonmail.com"},
+                                {"Name", "SHOP"}
                             }
                           },
                           {

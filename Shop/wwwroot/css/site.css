@@ -22,13 +22,6 @@
     border: 2 solid red !important;
 }
 
-
-background-color: #616161;
-color: white;
-margin-top: 50px;
-border: none
-}
-
 .head1 {
 font-weight: 900;
 font-size: 30px
@@ -60,12 +53,12 @@ color: #FFB74D
 color: #FFB74D
 }
 
-.card-title {
+/*.card-title {
 margin-bottom: .75rem;
 font-weight: 900;
 font-size: 15px;
 margin-top: 1.75rem
-}
+}*/
 
 .learn-more {
 color: #FFB74D
@@ -242,4 +235,31 @@ border: none
 
 .f-right {
     float: right !important;
+}
+
+/* CONFIGURAÇÃO DE CORES DOS COMPONENTES DO PROJETOS*/
+.controlColor {
+    color: white !important;
+    /*background-color: #2274e4 !important;*/
+    background-color: royalblue !important;
+    /*    background-color: #3a3ae7 !important;*/
+}
+
+.textColor {
+    /*color: #3E4492 !important;*/
+    color: orange !important;
+}
+
+.textColorBlack {
+    color: #000 !important;
+}
+
+
+.textColorNext {
+    color: gold !important;
+}
+
+.backColor {
+    /*background-color: #3E4492 !important;*/
+    background-color: blue !important;
 }

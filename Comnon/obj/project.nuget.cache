@@ -1,6 +1,5 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "eRoA6vpHey0dimmZ30kjYecq/+jiYch9UmPsrACqEnNGTWgijsNFPpbwsgUrqYxaLOdwbhp1eH891O2M+KRPEw==",
   "success": true,
   "projectFilePath": "C:\\_Cursos\\Curso Wcogeo\\Shopping\\Comnon\\Common.csproj",
@@ -103,11 +102,5 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-=======
-  "dgSpecHash": "kn8RxHwcCrV1D/j1u/u0eHTEGH7IS5zCYoUUlejom1+/1a0eTe9EIlLL9Iqb9jGZmkq2q1scfQMUw1hrhM/R3w==",
-  "success": true,
-  "projectFilePath": "S:\\DESENVOLVIMENTO\\GIT\\Shopping\\Comnon\\Common.csproj",
-  "expectedPackageFiles": [],
->>>>>>> DEV-Lucas
   "logs": []
 }

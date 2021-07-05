@@ -1,0 +1,17 @@
+﻿@model int
+
+    <div class="row">
+        <div class="col">
+            <a asp-action="Index" class="btn controlColor form-control">
+                <i class="fa fa-arrow-left" aria-hidden="true"></i>&nbsp;
+                Back to List
+            </a>
+        </div>
+        <div class="col">
+            <button type="submit" class="btn controlColor form-control" asp-route-id="@Model">
+                <i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;
+                Update
+            </button>
+        </div>
+
+    </div>

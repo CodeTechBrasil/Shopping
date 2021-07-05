@@ -7,7 +7,7 @@ namespace Services
     public interface IProductController : IController<Product>
     {
         Product Find(int id);
-        IEnumerable<SelectListItem> GetAllDropdownListApplicationType();
+        IEnumerable<SelectListItem> GetAllDropdownListSubCategory();
         IEnumerable<SelectListItem> GetAllDropdownListCategory();
     }
 }

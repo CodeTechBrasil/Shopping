@@ -26,9 +26,9 @@ namespace Models
         public int CategoryId { get; set; }
         public virtual Category Category { get; set; }
 
-        [Display(Name = "Application Type")]
-        public int ApplicationTypeId { get; set; }
-        public virtual ApplicationType ApplicationType { get; set; }
+        [Display(Name = "Sub Category")]
+        public int SubCategoryId { get; set; }
+        public virtual SubCategory SubCategory { get; set; }
 
         [Range(1, 10000, ErrorMessage = "Sqft must be greater than 0.")]
         public int TempSqFt { get; set; }

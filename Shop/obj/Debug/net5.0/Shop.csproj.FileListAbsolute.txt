@@ -1261,20 +1261,6 @@ C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\scopedcss\bundle\Shop.sty
 C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Shop.TagHelpers.input.cache
 C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Shop.TagHelpers.output.cache
 C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Shop.RazorCoreGenerate.cache
-C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Home\Index.cshtml.g.cs
-C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Home\Privacy.cshtml.g.cs
-C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Razor\Areas\Admin\_ViewImports.cshtml.g.cs
-C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Razor\Areas\Admin\_ViewStart.cshtml.g.cs
-C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Razor\Areas\Cadastro\Views\ApplicationType\Create.cshtml.g.cs
-C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Razor\Areas\Cadastro\Views\ApplicationType\Delete.cshtml.g.cs
-C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Razor\Areas\Cadastro\Views\ApplicationType\Edit.cshtml.g.cs
-C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Razor\Areas\Cadastro\Views\ApplicationType\Index.cshtml.g.cs
-C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Razor\Areas\Cadastro\Views\Category\Create.cshtml.g.cs
-C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Razor\Areas\Cadastro\Views\Category\Delete.cshtml.g.cs
-C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Razor\Areas\Cadastro\Views\Category\Edit.cshtml.g.cs
-C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Razor\Areas\Cadastro\Views\Category\Index.cshtml.g.cs
-C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Razor\Areas\Cadastro\_ViewImports.cshtml.g.cs
-C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Razor\Areas\Cadastro\_ViewStart.cshtml.g.cs
 C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Razor\Views\Shared\_Notifications.cshtml.g.cs
@@ -1288,9 +1274,6 @@ C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Shop.csproj.CopyComplete
 C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Shop.dll
 C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\ref\Shop.dll
 C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Shop.genruntimeconfig.cache
-C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Razor\Areas\Cadastro\Views\Product\Delete.cshtml.g.cs
-C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Razor\Areas\Cadastro\Views\Product\Index.cshtml.g.cs
-C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Razor\Areas\Cadastro\Views\Product\Upsert.cshtml.g.cs
 S:\DESENVOLVIMENTO\GIT\Shopping\Shop\bin\Debug\net5.0\appsettings.Development.json
 S:\DESENVOLVIMENTO\GIT\Shopping\Shop\bin\Debug\net5.0\appsettings.json
 S:\DESENVOLVIMENTO\GIT\Shopping\Shop\bin\Debug\net5.0\Shop.StaticWebAssets.xml
@@ -2220,3 +2203,21 @@ D:\Shopping\Shop\obj\Debug\net5.0\Shop.dll
 D:\Shopping\Shop\obj\Debug\net5.0\ref\Shop.dll
 D:\Shopping\Shop\obj\Debug\net5.0\Shop.pdb
 D:\Shopping\Shop\obj\Debug\net5.0\Shop.genruntimeconfig.cache
+C:\_Cursos\Curso Wcogeo\Shopping\Shop\bin\Debug\net5.0\appsettings.Production.json
+C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Razor\Modules\Admin\_ViewImports.cshtml.g.cs
+C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Razor\Modules\Admin\_ViewStart.cshtml.g.cs
+C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Razor\Modules\Register\Views\Category\Create.cshtml.g.cs
+C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Razor\Modules\Register\Views\Category\Delete.cshtml.g.cs
+C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Razor\Modules\Register\Views\Category\Edit.cshtml.g.cs
+C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Razor\Modules\Register\Views\Category\Index.cshtml.g.cs
+C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Razor\Modules\Register\Views\Product\Delete.cshtml.g.cs
+C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Razor\Modules\Register\Views\Product\Index.cshtml.g.cs
+C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Razor\Modules\Register\Views\Product\Upsert.cshtml.g.cs
+C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Razor\Modules\Register\Views\SubCategory\Create.cshtml.g.cs
+C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Razor\Modules\Register\Views\SubCategory\Delete.cshtml.g.cs
+C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Razor\Modules\Register\Views\SubCategory\Edit.cshtml.g.cs
+C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Razor\Modules\Register\Views\SubCategory\Index.cshtml.g.cs
+C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Razor\Modules\Register\_ViewImports.cshtml.g.cs
+C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Razor\Modules\Register\_ViewStart.cshtml.g.cs
+C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\_Cursos\Curso Wcogeo\Shopping\Shop\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs

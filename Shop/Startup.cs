@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using DataAccess;
 using Common;
 using System.Data.Common;
+using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.Data.SqlClient;
 using Services;
 
@@ -23,6 +24,15 @@ namespace Shop
 
         public void ConfigureServices(IServiceCollection services)
         {
+            //CONFIGURA O NOVO CAMINHA DAS ÁREAS => PASSANDO DE [Areas] PARA [Modulo]
+            services.Configure<RazorViewEngineOptions>(options =>
+            {
+                options.AreaViewLocationFormats.Clear();
+                options.AreaViewLocationFormats.Add("/Modules/{2}/Views/{1}/{0}.cshtml");
+                options.AreaViewLocationFormats.Add("/Modules/{2}/Views/Shared/{0}.cshtml");
+                options.AreaViewLocationFormats.Add("/Views/Shared/{0}.cshtml");
+            });
+
             //CONFIGURA A CONEXÃO COM O BANCO DE DADOS, INFORMANDO A STRING DE CONEXÃO
             services.AddDbContext<ApplicationDbContext>(options =>
             {
@@ -45,15 +55,7 @@ namespace Shop
 
 
             //INJENÇÃO DE DEPENDÊNCIA
-            services.AddScoped<IDbInitializer, DbInitializer>();
-
-            services.AddScoped<ICategoryRepository, CategoryRepository>();
-            services.AddScoped<IApplicationTypeRepository, ApplicationTypeRepository>();
-            services.AddScoped<IProductController, ProductController>();
-
-            services.AddScoped<ICategoryController, CategoryController>();
-            services.AddScoped<IApplicationTypeController, ApplicationTypeController>();
-            services.AddScoped<IProductRepository, ProductRepository>();
+            services.AllDependencyInjection();
         }
 
 
@@ -82,9 +84,10 @@ namespace Shop
             app.UseEndpoints(endpoints =>
             {
                 //Configurando Rota de Areas
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{area=Admin}/{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapAreaControllerRoute("AreaCategory", "Register", "Category/{controller=Category}/{action=Index}/{id?}");
+                endpoints.MapAreaControllerRoute("AreaSubCategory", "Register", "SubCategory/{controller=SubCategory}/{action=Index}/{id?}");
+                endpoints.MapAreaControllerRoute("AreaProduct", "Register", "Product/{controller=Product}/{action=Index}/{id?}");
             });
         }
     }

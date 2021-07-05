@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace Models
 {
@@ -13,10 +12,5 @@ namespace Models
         [Required]
         public int ProductId { get; set; }
         public Product Product { get; set; }
-
-        public int Sqft { get; set; }
-        public decimal PricePerSqFt { get; set; }
-
-      
     }
 }

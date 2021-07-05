@@ -6,12 +6,12 @@ namespace DataAccess
     public class ApplicationDbContext : DbContext
     {
         public DbSet<Category> Category { get; set; }
-        public DbSet<ApplicationType> ApplicationType { get; set; }
+        public DbSet<SubCategory> SubCategory { get; set; }
         public DbSet<Product> Product { get; set; }
-        public DbSet<InquiryHeader> InquiryHeader { get; set; }
-        public DbSet<InquiryDetail> InquiryDetail { get; set; }
         public DbSet<OrderHeader> OrderHeader { get; set; }
         public DbSet<OrderDetail> OrderDetail { get; set; }
+        public DbSet<SaleHeader> SaleHeader { get; set; }
+        public DbSet<SaleDetail> SaleDetail { get; set; }
 
         public ApplicationDbContext()
         {
@@ -27,12 +27,15 @@ namespace DataAccess
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
+            //var connSqlServer = "Server=127.0.0.1,1433;Database=Shop;User=sa;Password=a"; ;
+            //optionsBuilder.UseSqlServer(connSqlServer);
+
             //EnumDatabase enumDabase = EnumDatabase.SqlServer;
             //switch (enumDabase)
             //{
             //    case EnumDatabase.SqlServer:
-            //        var connSqlServer = "Server=127.0.0.1,1433;Database=Shop;User=sa;Password=a"; ;
-            //        optionsBuilder.UseSqlServer(connSqlServer);
+            //var connSqlServer = "Server=127.0.0.1,1433;Database=Shop;User=sa;Password=a"; ;
+            //optionsBuilder.UseSqlServer(connSqlServer);
             //        break;
             //    case EnumDatabase.MySql:
             //        break;

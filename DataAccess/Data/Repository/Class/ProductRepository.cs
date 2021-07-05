@@ -24,9 +24,9 @@ namespace DataAccess
                     Value = i.Id.ToString()
                 });
             }
-            if (obj == DB.TABLE_APPLICATION_TYPE)
+            if (obj == DB.TABLE_SUB_CATEGORY)
             {
-                return _db.ApplicationType.Select(i => new SelectListItem
+                return _db.SubCategory.Select(i => new SelectListItem
                 {
                     Text = i.Name,
                     Value = i.Id.ToString()

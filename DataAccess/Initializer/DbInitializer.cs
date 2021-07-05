@@ -44,14 +44,14 @@ namespace DataAccess
 
         private void CreateApplicationType()
         {
-            var list = new List<ApplicationType>
+            var list = new List<SubCategory>
             {
-                new ApplicationType{Name = "Leite"},
-                new ApplicationType{Name = "Água"},
-                new ApplicationType{Name = "Misto"}
+                new SubCategory{Name = "Leite"},
+                new SubCategory{Name = "Água"},
+                new SubCategory{Name = "Misto"}
             };
             foreach (var item in list)
-                _db.ApplicationType.Add(item);
+                _db.SubCategory.Add(item);
 
             _db.SaveChanges();
         }

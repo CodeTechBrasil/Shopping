@@ -7,9 +7,7 @@ namespace DataAccess
         public static void Map(this OrderDetail objBanco, OrderDetail objClasse)
         {
             objBanco.OrderHeaderId = objClasse.OrderHeaderId;
-            objBanco.ProductId = objClasse.ProductId;
-            objBanco.Sqft = objClasse.Sqft;
-            objBanco.PricePerSqFt = objClasse.PricePerSqFt;
+            objBanco.ProductId= objClasse.ProductId;
         }
     }
 }

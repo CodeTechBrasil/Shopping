@@ -6,19 +6,10 @@ namespace DataAccess
     {
         public static void Map(this OrderHeader objBanco, OrderHeader objClasse)
         {
-            objBanco.OrderDate = objClasse.OrderDate;
-            objBanco.ShippingDate = objClasse.ShippingDate;
-            objBanco.FinalOrderTotal = objClasse.FinalOrderTotal;
-            objBanco.OrderStatus = objClasse.OrderStatus;
-            objBanco.PaymentDate = objClasse.PaymentDate;
-            objBanco.TransactionId = objClasse.TransactionId;
-            objBanco.PhoneNumber = objClasse.PhoneNumber;
-            objBanco.StreetAddress = objClasse.StreetAddress;
-            objBanco.City = objClasse.City;
-            objBanco.State = objClasse.State;
-            objBanco.PostalCode = objClasse.PostalCode;
-            objBanco.FullName = objClasse.FullName;
             objBanco.Email = objClasse.Email;
+            objBanco.FullName= objClasse.FullName;
+            objBanco.InquiryDate= objClasse.InquiryDate;
+            objBanco.PhoneNumber= objClasse.PhoneNumber;
         }
     }
 }

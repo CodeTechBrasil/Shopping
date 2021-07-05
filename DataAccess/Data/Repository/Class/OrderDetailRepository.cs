@@ -5,7 +5,7 @@ namespace DataAccess
     public class OrderDetailRepository : Repository<OrderDetail>, IOrderDetailRepository
     {
         private readonly ApplicationDbContext _db;
-        public OrderDetailRepository(ApplicationDbContext db): base(db)
+        public OrderDetailRepository(ApplicationDbContext db) : base(db)
         {
             _db = db;
         }

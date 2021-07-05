@@ -19,24 +19,6 @@ namespace DataAccess.Migrations
                 .HasAnnotation("ProductVersion", "6.0.0-preview.1.21102.2")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("Models.ApplicationType", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnName("Id")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("ApplicationType");
-                });
-
             modelBuilder.Entity("Models.Category", b =>
                 {
                     b.Property<int>("Id")
@@ -59,7 +41,7 @@ namespace DataAccess.Migrations
                     b.ToTable("Category");
                 });
 
-            modelBuilder.Entity("Models.InquiryDetail", b =>
+            modelBuilder.Entity("Models.OrderDetail", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -67,7 +49,7 @@ namespace DataAccess.Migrations
                         .HasColumnName("Id")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("InquiryHeaderId")
+                    b.Property<int>("OrderHeaderId")
                         .HasColumnType("int");
 
                     b.Property<int>("ProductId")
@@ -75,14 +57,14 @@ namespace DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("InquiryHeaderId");
+                    b.HasIndex("OrderHeaderId");
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("InquiryDetail");
+                    b.ToTable("OrderDetail");
                 });
 
-            modelBuilder.Entity("Models.InquiryHeader", b =>
+            modelBuilder.Entity("Models.OrderHeader", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -110,10 +92,10 @@ namespace DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("InquiryHeader");
+                    b.ToTable("OrderHeader");
                 });
 
-            modelBuilder.Entity("Models.OrderDetail", b =>
+            modelBuilder.Entity("Models.Product", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -121,8 +103,53 @@ namespace DataAccess.Migrations
                         .HasColumnName("Id")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("OrderHeaderId")
+                    b.Property<int>("CategoryId")
+                        .HasPrecision(8)
                         .HasColumnType("int");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Image")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<decimal>("Price")
+                        .HasPrecision(18, 2)
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("ShortDesc")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<int>("SubCategoryId")
+                        .HasPrecision(8)
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CategoryId");
+
+                    b.HasIndex("SubCategoryId");
+
+                    b.ToTable("Product");
+                });
+
+            modelBuilder.Entity("Models.SaleDetail", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("Id")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<decimal>("PricePerSqFt")
                         .HasPrecision(18, 2)
@@ -131,20 +158,23 @@ namespace DataAccess.Migrations
                     b.Property<int>("ProductId")
                         .HasColumnType("int");
 
+                    b.Property<int>("SaleHeaderId")
+                        .HasColumnType("int");
+
                     b.Property<int>("Sqft")
                         .HasPrecision(8)
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("OrderHeaderId");
-
                     b.HasIndex("ProductId");
 
-                    b.ToTable("OrderDetail");
+                    b.HasIndex("SaleHeaderId");
+
+                    b.ToTable("SaleDetail");
                 });
 
-            modelBuilder.Entity("Models.OrderHeader", b =>
+            modelBuilder.Entity("Models.SaleHeader", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -212,10 +242,10 @@ namespace DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("OrderHeader");
+                    b.ToTable("SaleHeader");
                 });
 
-            modelBuilder.Entity("Models.Product", b =>
+            modelBuilder.Entity("Models.SubCategory", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -223,69 +253,20 @@ namespace DataAccess.Migrations
                         .HasColumnName("Id")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("ApplicationTypeId")
-                        .HasPrecision(8)
-                        .HasColumnType("int");
-
-                    b.Property<int>("CategoryId")
-                        .HasPrecision(8)
-                        .HasColumnType("int");
-
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.Property<string>("Image")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.Property<decimal>("Price")
-                        .HasPrecision(18, 2)
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<string>("ShortDesc")
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ApplicationTypeId");
-
-                    b.HasIndex("CategoryId");
-
-                    b.ToTable("Product");
-                });
-
-            modelBuilder.Entity("Models.InquiryDetail", b =>
-                {
-                    b.HasOne("Models.InquiryHeader", "InquiryHeader")
-                        .WithMany()
-                        .HasForeignKey("InquiryHeaderId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Models.Product", "Product")
-                        .WithMany()
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("InquiryHeader");
-
-                    b.Navigation("Product");
+                    b.ToTable("SubCategory");
                 });
 
             modelBuilder.Entity("Models.OrderDetail", b =>
                 {
                     b.HasOne("Models.OrderHeader", "OrderHeader")
-                        .WithMany("ListOrderDetail")
+                        .WithMany()
                         .HasForeignKey("OrderHeaderId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -303,26 +284,40 @@ namespace DataAccess.Migrations
 
             modelBuilder.Entity("Models.Product", b =>
                 {
-                    b.HasOne("Models.ApplicationType", "ApplicationType")
-                        .WithMany("ListProduct")
-                        .HasForeignKey("ApplicationTypeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("Models.Category", "Category")
                         .WithMany("ListProduct")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("ApplicationType");
+                    b.HasOne("Models.SubCategory", "SubCategory")
+                        .WithMany("ListProduct")
+                        .HasForeignKey("SubCategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Category");
+
+                    b.Navigation("SubCategory");
                 });
 
-            modelBuilder.Entity("Models.ApplicationType", b =>
+            modelBuilder.Entity("Models.SaleDetail", b =>
                 {
-                    b.Navigation("ListProduct");
+                    b.HasOne("Models.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Models.SaleHeader", "SaleHeader")
+                        .WithMany("ListSaleDetail")
+                        .HasForeignKey("SaleHeaderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+
+                    b.Navigation("SaleHeader");
                 });
 
             modelBuilder.Entity("Models.Category", b =>
@@ -330,9 +325,14 @@ namespace DataAccess.Migrations
                     b.Navigation("ListProduct");
                 });
 
-            modelBuilder.Entity("Models.OrderHeader", b =>
+            modelBuilder.Entity("Models.SaleHeader", b =>
                 {
-                    b.Navigation("ListOrderDetail");
+                    b.Navigation("ListSaleDetail");
+                });
+
+            modelBuilder.Entity("Models.SubCategory", b =>
+                {
+                    b.Navigation("ListProduct");
                 });
 #pragma warning restore 612, 618
         }

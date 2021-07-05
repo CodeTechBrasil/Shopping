@@ -43,7 +43,7 @@ namespace DataAccess
                 .IsRequired();
 
             builder
-                .Property(x => x.ApplicationTypeId)
+                .Property(x => x.SubCategoryId)
                 .HasPrecision(8)
                 .IsRequired();
 
@@ -60,9 +60,9 @@ namespace DataAccess
             //RELACIONAMENTO 1 PARA MUITO - NA CLASSE PAI[ApplicationType] TEM QUE TER UMA LISTA DE PRODUTO E NA CLASSE FILHA [PRODUCT] TEM QUE TER UMA INSTÂNCIA DA ApplicationType
 
             builder
-               .HasOne(x => x.ApplicationType)
+               .HasOne(x => x.SubCategory)
                .WithMany(x => x.ListProduct)
-               .HasForeignKey(x => x.ApplicationTypeId);
+               .HasForeignKey(x => x.SubCategoryId);
         }
     }
 }

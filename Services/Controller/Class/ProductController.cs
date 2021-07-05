@@ -11,7 +11,7 @@ namespace Services
     public class ProductController : IProductController
     {
         private readonly IProductRepository _repo;
-        private readonly string _includeProperties = "Category,ApplicationType";
+        private readonly string _includeProperties = "Category,SubCategory";
 
         public ProductController(IProductRepository repo) => _repo = repo;
 
@@ -35,9 +35,9 @@ namespace Services
             }
         }
 
-        public IEnumerable<SelectListItem> GetAllDropdownListApplicationType()
+        public IEnumerable<SelectListItem> GetAllDropdownListSubCategory()
         {
-            return _repo.GetAllDropdownList(DB.TABLE_APPLICATION_TYPE);
+            return _repo.GetAllDropdownList(DB.TABLE_SUB_CATEGORY);
         }
 
         public IEnumerable<SelectListItem> GetAllDropdownListCategory()

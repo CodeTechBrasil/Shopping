@@ -6,14 +6,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Controllers\**" />
     <Compile Remove="Views\Home\**" />
-    <Content Remove="Controllers\**" />
     <Content Remove="Views\Home\**" />
-    <EmbeddedResource Remove="Controllers\**" />
     <EmbeddedResource Remove="Views\Home\**" />
-    <None Remove="Controllers\**" />
     <None Remove="Views\Home\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Privacy.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -29,6 +30,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Modules\Admin\Controllers\" />
+    <Folder Include="Modules\Admin\Views\" />
     <Folder Include="wwwroot\images\product\" />
     <Folder Include="wwwroot\reports\" />
   </ItemGroup>

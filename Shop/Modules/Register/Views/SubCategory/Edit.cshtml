@@ -1,0 +1,55 @@
+﻿@model Models.SubCategory
+
+<form method="post" asp-area="Cadastro" asp-controller="SubCategory" asp-action="Edit">
+    <input asp-for="Id" hidden />
+    <div class="card container  ">
+        <div class="card-header controlColor mt-3">
+
+            <div class="col-12">
+                <h2 class="">Edit Application Type</h2>
+                <br />
+            </div>
+        </div>
+        <div class="card-body">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="form-group row py-2">
+                        <div class="col-12">
+                            <label asp-for="Name"></label>
+                            <input asp-for="Name"  class="form-control" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="form-group row py-2">
+                        <div class="col-12">
+                        @if (Model.Id != 0)
+                        {
+                            //Edit button and back to list
+                            <partial name="_EditAndBackToListButton" model="Model.Id" /> }
+                        else
+                        {
+                            //Create button and back to list
+                            <partial name="_CreateAndBackToListButton" />
+                        }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-footer controlColor mb-3">
+            <p>Edit Record</p>
+        </div>
+    </div>
+</form>
+@section Scripts{
+
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+
+}

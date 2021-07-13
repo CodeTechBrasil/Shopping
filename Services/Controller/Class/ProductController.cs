@@ -19,13 +19,11 @@ namespace Services
         {
             try
             {
-                var objFromDb = _repo.Find(id);
-                if (objFromDb == null)
+                if (id == 0)
                     return false;
 
-                _repo.Remove(objFromDb);
+                _repo.Remove(id);
                 _repo.Save();
-
                 return true;
             }
             catch (Exception ex)
@@ -35,35 +33,26 @@ namespace Services
             }
         }
 
-        public IEnumerable<SelectListItem> GetAllDropdownListSubCategory()
-        {
-            return _repo.GetAllDropdownList(DB.TABLE_SUB_CATEGORY);
-        }
+        public IEnumerable<SelectListItem> GetAllDropdownListSubCategory() => _repo.GetAllDropdownList(DB.TABLE_SUB_CATEGORY);
 
-        public IEnumerable<SelectListItem> GetAllDropdownListCategory()
-        {
-            return _repo.GetAllDropdownList(DB.TABLE_CATEGORY);
-        }
+        public IEnumerable<SelectListItem> GetAllDropdownListCategory() => _repo.GetAllDropdownList(DB.TABLE_CATEGORY);
 
         public Product GetFirstOrDefatult(Expression<Func<Product, bool>> expression = null)
         {
             if (expression != null)
-                return _repo.FirstOrDefault(expression, includeProperties: _includeProperties, isTracking: false);
+                return _repo.FirstOrDefault(expression, includeProperties: _includeProperties);
 
-            return _repo.FirstOrDefault(includeProperties: _includeProperties, isTracking: false);
+            return _repo.FirstOrDefault(includeProperties: _includeProperties);
         }
 
-        public Product Find(int id)
-        {
-            return _repo.Find(id);
-        }
+        public Product Find(int id) => _repo.Find(id);
 
         public IEnumerable<Product> LoadData(Expression<Func<Product, bool>> expression = null)
         {
             if (expression != null)
-                return _repo.GetAll(expression, includeProperties: _includeProperties, isTracking: false);
+                return _repo.GetAll(expression, includeProperties: _includeProperties);
 
-            return _repo.GetAll(includeProperties: _includeProperties, isTracking: false);
+            return _repo.GetAll(includeProperties: _includeProperties);
         }
 
         public bool Save(Product obj)
@@ -72,7 +61,6 @@ namespace Services
             {
                 _repo.Add(obj);
                 _repo.Save();
-
                 return true;
             }
             catch (Exception ex)

@@ -1,6 +1,6 @@
 ﻿using Models;
 
-namespace DataAccess
+namespace Models
 {
     public static class SaleDetailExtension
     {

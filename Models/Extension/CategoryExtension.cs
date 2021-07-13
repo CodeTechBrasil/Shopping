@@ -1,7 +1,7 @@
 ﻿using Models;
 using System.Threading;
 
-namespace DataAccess
+namespace Models
 {
     public static class CategoryExtension
     {

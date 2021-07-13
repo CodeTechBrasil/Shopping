@@ -16,13 +16,11 @@ namespace Services
         {
             try
             {
-                var objFromDb = _repo.Find(id);
-                if (objFromDb == null)
+                if (id == 0)
                     return false;
 
-                _repo.Remove(objFromDb);
+                _repo.Remove(id);
                 _repo.Save();
-
                 return true;
             }
             catch (Exception ex)
@@ -54,7 +52,6 @@ namespace Services
             {
                 _repo.Add(obj);
                 _repo.Save();
-
                 return true;
             }
             catch (Exception ex)
